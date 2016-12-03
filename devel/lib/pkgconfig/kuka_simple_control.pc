@@ -1,0 +1,8 @@
+prefix=/home/alex/RosProgramming/kuka/devel
+
+Name: kuka_simple_control
+Description: Description of kuka_simple_control
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/alex/RosProgramming/kuka/devel/lib 
+Requires: 

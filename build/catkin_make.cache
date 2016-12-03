@@ -1,0 +1,2 @@
+kuka_simple_control
+-DCATKIN_DEVEL_PREFIX=/home/alex/RosProgramming/kuka/devel -DCMAKE_INSTALL_PREFIX=/home/alex/RosProgramming/kuka/install -G Unix Makefiles
