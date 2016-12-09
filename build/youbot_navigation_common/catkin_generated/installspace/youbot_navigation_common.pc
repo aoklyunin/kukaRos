@@ -1,0 +1,8 @@
+prefix=/home/alex/RosProgramming/kuka/install
+
+Name: youbot_navigation_common
+Description: Description of youbot_navigation_common
+Version: 0.1.0
+Cflags: 
+Libs: -L/home/alex/RosProgramming/kuka/install/lib 
+Requires: 

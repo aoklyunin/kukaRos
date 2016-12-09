@@ -10,11 +10,11 @@ class App(wx.App):
     # инициализация приложения
     def OnInit(self):
         # Задаём имя ноды
-        self.node_name = "goto_searchposition"
+        self.node_name = "fucking_kuka_node"
         # инициализируем ноду роса
         rospy.init_node(self.node_name)
         # создание окна
-        self.frame = Frame(None,-1,"Move It")
+        self.frame = Frame(None,-1,"Kuka Controller")
         # отображение окна
         self.frame.Show(True)
         # указываем, что только что созданное окно - главное

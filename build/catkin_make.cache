@@ -1,2 +1,2 @@
-kuka_simple_control
+kuka_simple_control:vrep_common:vrep_plugin:vrep_youbot_plugin:youbot_navigation:youbot_navigation_common:youbot_navigation_global:youbot_navigation_local:youbot_ros_samples/youbot_ros_hello_world:youbot_ros_samples/youbot_ros_samples:youbot_ros_samples/youbot_ros_simple_trajectory
 -DCATKIN_DEVEL_PREFIX=/home/alex/RosProgramming/kuka/devel -DCMAKE_INSTALL_PREFIX=/home/alex/RosProgramming/kuka/install -G Unix Makefiles

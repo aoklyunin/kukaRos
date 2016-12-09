@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alex/RosProgramming/kuka/src/youbot_navigation_common/src/lowpass_filter.cpp
+ros/ros.h
+/home/alex/RosProgramming/kuka/src/youbot_navigation_common/src/ros/ros.h
+geometry_msgs/Twist.h
+/home/alex/RosProgramming/kuka/src/youbot_navigation_common/src/geometry_msgs/Twist.h
+

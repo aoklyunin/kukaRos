@@ -118,6 +118,16 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("/home/alex/RosProgramming/kuka/build/gtest/cmake_install.cmake")
   INCLUDE("/home/alex/RosProgramming/kuka/build/kuka_simple_control/cmake_install.cmake")
+  INCLUDE("/home/alex/RosProgramming/kuka/build/vrep_common/cmake_install.cmake")
+  INCLUDE("/home/alex/RosProgramming/kuka/build/vrep_plugin/cmake_install.cmake")
+  INCLUDE("/home/alex/RosProgramming/kuka/build/vrep_youbot_plugin/cmake_install.cmake")
+  INCLUDE("/home/alex/RosProgramming/kuka/build/youbot_navigation/cmake_install.cmake")
+  INCLUDE("/home/alex/RosProgramming/kuka/build/youbot_navigation_common/cmake_install.cmake")
+  INCLUDE("/home/alex/RosProgramming/kuka/build/youbot_navigation_global/cmake_install.cmake")
+  INCLUDE("/home/alex/RosProgramming/kuka/build/youbot_navigation_local/cmake_install.cmake")
+  INCLUDE("/home/alex/RosProgramming/kuka/build/youbot_ros_samples/youbot_ros_hello_world/cmake_install.cmake")
+  INCLUDE("/home/alex/RosProgramming/kuka/build/youbot_ros_samples/youbot_ros_samples/cmake_install.cmake")
+  INCLUDE("/home/alex/RosProgramming/kuka/build/youbot_ros_samples/youbot_ros_simple_trajectory/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

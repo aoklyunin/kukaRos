@@ -1,0 +1,17 @@
+<package>
+    <name>youbot_navigation</name>
+    <version>0.1.1</version>
+    <description>youbot_navigation</description>
+    <maintainer email="rctoris@wpi.edu">Russell Toris</maintainer>
+    <author>Alexey Zakharov</author>
+    <license>LGPL, BSD</license>  
+    <url>http://ros.org/wiki/youbot_navigation</url>
+
+    <export>
+        <metapackage/>
+    </export>
+
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <run_depend>ros</run_depend>
+</package>

@@ -44,9 +44,9 @@ class KukaController():
         self.torqueArmPub = rospy.Publisher("/arm_controller/force_command", brics_actuator.msg.JointTorques, queue_size=1)
         self.velocityArmPub = rospy.Publisher("/arm_controller/velocity_command", brics_actuator.msg.JointVelocities, queue_size=1)
         self.cartVelPub = rospy.Publisher("/cmd_vel", geometry_msgs.msg.Twist, queue_size=1)
-        self.positionGripperPub = rospy.Publisher("/arm_controller/position_command", brics_actuator.msg.JointPositions,queue_size=1)
-        self.forceGripperPub = rospy.Publisher("/arm_controller/force_command", brics_actuator.msg.JointTorques,queue_size=1)
-        self.velocityGripperPub = rospy.Publisher("/arm_controller/velocity_command", brics_actuator.msg.JointVelocities,queue_size=1)
+        self.positionGripperPub = rospy.Publisher("/gripper_controller/position_command", brics_actuator.msg.JointPositions,queue_size=1)
+        self.forceGripperPub = rospy.Publisher("/gripper_controller/force_command", brics_actuator.msg.JointTorques,queue_size=1)
+        self.velocityGripperPub = rospy.Publisher("/gripper_controller/velocity_command", brics_actuator.msg.JointVelocities,queue_size=1)
         self.jointStateSubscriber = rospy.Subscriber("/joint_states", sensor_msgs.msg.JointState, self.jointStateCallback)
         # пауза необходима для правильной обработки пакетов
         rospy.sleep(1)

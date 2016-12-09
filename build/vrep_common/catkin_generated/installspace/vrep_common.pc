@@ -1,0 +1,8 @@
+prefix=/home/alex/RosProgramming/kuka/install
+
+Name: vrep_common
+Description: Description of vrep_common
+Version: 3.3.0
+Cflags: -I/home/alex/RosProgramming/kuka/install/include
+Libs: -L/home/alex/RosProgramming/kuka/install/lib 
+Requires: message_runtime
