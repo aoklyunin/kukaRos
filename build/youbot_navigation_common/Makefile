@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alex/RosProgramming/kuka/src
+CMAKE_SOURCE_DIR = /home/teacher/PycharmProjects/kukaRos/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alex/RosProgramming/kuka/build
+CMAKE_BINARY_DIR = /home/teacher/PycharmProjects/kukaRos/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,14 +120,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/alex/RosProgramming/kuka/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/alex/RosProgramming/kuka/build/CMakeFiles /home/alex/RosProgramming/kuka/build/youbot_navigation_common/CMakeFiles/progress.marks
-	cd /home/alex/RosProgramming/kuka/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_navigation_common/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alex/RosProgramming/kuka/build/CMakeFiles 0
+	cd /home/teacher/PycharmProjects/kukaRos/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles /home/teacher/PycharmProjects/kukaRos/build/youbot_navigation_common/CMakeFiles/progress.marks
+	cd /home/teacher/PycharmProjects/kukaRos/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_navigation_common/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/alex/RosProgramming/kuka/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_navigation_common/clean
+	cd /home/teacher/PycharmProjects/kukaRos/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_navigation_common/clean
 .PHONY : clean
 
 # The main clean target
@@ -136,22 +136,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/alex/RosProgramming/kuka/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_navigation_common/preinstall
+	cd /home/teacher/PycharmProjects/kukaRos/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_navigation_common/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/alex/RosProgramming/kuka/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_navigation_common/preinstall
+	cd /home/teacher/PycharmProjects/kukaRos/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_navigation_common/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/alex/RosProgramming/kuka/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/teacher/PycharmProjects/kukaRos/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 youbot_navigation_common/CMakeFiles/lowpass_filter.dir/rule:
-	cd /home/alex/RosProgramming/kuka/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_navigation_common/CMakeFiles/lowpass_filter.dir/rule
+	cd /home/teacher/PycharmProjects/kukaRos/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_navigation_common/CMakeFiles/lowpass_filter.dir/rule
 .PHONY : youbot_navigation_common/CMakeFiles/lowpass_filter.dir/rule
 
 # Convenience name for target.
@@ -160,7 +160,7 @@ lowpass_filter: youbot_navigation_common/CMakeFiles/lowpass_filter.dir/rule
 
 # fast build rule for target.
 lowpass_filter/fast:
-	cd /home/alex/RosProgramming/kuka/build && $(MAKE) -f youbot_navigation_common/CMakeFiles/lowpass_filter.dir/build.make youbot_navigation_common/CMakeFiles/lowpass_filter.dir/build
+	cd /home/teacher/PycharmProjects/kukaRos/build && $(MAKE) -f youbot_navigation_common/CMakeFiles/lowpass_filter.dir/build.make youbot_navigation_common/CMakeFiles/lowpass_filter.dir/build
 .PHONY : lowpass_filter/fast
 
 src/lowpass_filter.o: src/lowpass_filter.cpp.o
@@ -168,7 +168,7 @@ src/lowpass_filter.o: src/lowpass_filter.cpp.o
 
 # target to build an object file
 src/lowpass_filter.cpp.o:
-	cd /home/alex/RosProgramming/kuka/build && $(MAKE) -f youbot_navigation_common/CMakeFiles/lowpass_filter.dir/build.make youbot_navigation_common/CMakeFiles/lowpass_filter.dir/src/lowpass_filter.cpp.o
+	cd /home/teacher/PycharmProjects/kukaRos/build && $(MAKE) -f youbot_navigation_common/CMakeFiles/lowpass_filter.dir/build.make youbot_navigation_common/CMakeFiles/lowpass_filter.dir/src/lowpass_filter.cpp.o
 .PHONY : src/lowpass_filter.cpp.o
 
 src/lowpass_filter.i: src/lowpass_filter.cpp.i
@@ -176,7 +176,7 @@ src/lowpass_filter.i: src/lowpass_filter.cpp.i
 
 # target to preprocess a source file
 src/lowpass_filter.cpp.i:
-	cd /home/alex/RosProgramming/kuka/build && $(MAKE) -f youbot_navigation_common/CMakeFiles/lowpass_filter.dir/build.make youbot_navigation_common/CMakeFiles/lowpass_filter.dir/src/lowpass_filter.cpp.i
+	cd /home/teacher/PycharmProjects/kukaRos/build && $(MAKE) -f youbot_navigation_common/CMakeFiles/lowpass_filter.dir/build.make youbot_navigation_common/CMakeFiles/lowpass_filter.dir/src/lowpass_filter.cpp.i
 .PHONY : src/lowpass_filter.cpp.i
 
 src/lowpass_filter.s: src/lowpass_filter.cpp.s
@@ -184,7 +184,7 @@ src/lowpass_filter.s: src/lowpass_filter.cpp.s
 
 # target to generate assembly for a file
 src/lowpass_filter.cpp.s:
-	cd /home/alex/RosProgramming/kuka/build && $(MAKE) -f youbot_navigation_common/CMakeFiles/lowpass_filter.dir/build.make youbot_navigation_common/CMakeFiles/lowpass_filter.dir/src/lowpass_filter.cpp.s
+	cd /home/teacher/PycharmProjects/kukaRos/build && $(MAKE) -f youbot_navigation_common/CMakeFiles/lowpass_filter.dir/build.make youbot_navigation_common/CMakeFiles/lowpass_filter.dir/src/lowpass_filter.cpp.s
 .PHONY : src/lowpass_filter.cpp.s
 
 # Help Target
@@ -215,6 +215,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/alex/RosProgramming/kuka/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/teacher/PycharmProjects/kukaRos/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

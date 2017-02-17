@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alex/RosProgramming/kuka/src
+CMAKE_SOURCE_DIR = /home/teacher/PycharmProjects/kukaRos/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alex/RosProgramming/kuka/build
+CMAKE_BINARY_DIR = /home/teacher/PycharmProjects/kukaRos/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,14 +120,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/alex/RosProgramming/kuka/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/alex/RosProgramming/kuka/build/CMakeFiles /home/alex/RosProgramming/kuka/build/kuka_simple_control/CMakeFiles/progress.marks
-	cd /home/alex/RosProgramming/kuka/build && $(MAKE) -f CMakeFiles/Makefile2 kuka_simple_control/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alex/RosProgramming/kuka/build/CMakeFiles 0
+	cd /home/teacher/PycharmProjects/kukaRos/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles /home/teacher/PycharmProjects/kukaRos/build/kuka_simple_control/CMakeFiles/progress.marks
+	cd /home/teacher/PycharmProjects/kukaRos/build && $(MAKE) -f CMakeFiles/Makefile2 kuka_simple_control/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/alex/RosProgramming/kuka/build && $(MAKE) -f CMakeFiles/Makefile2 kuka_simple_control/clean
+	cd /home/teacher/PycharmProjects/kukaRos/build && $(MAKE) -f CMakeFiles/Makefile2 kuka_simple_control/clean
 .PHONY : clean
 
 # The main clean target
@@ -136,144 +136,18 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/alex/RosProgramming/kuka/build && $(MAKE) -f CMakeFiles/Makefile2 kuka_simple_control/preinstall
+	cd /home/teacher/PycharmProjects/kukaRos/build && $(MAKE) -f CMakeFiles/Makefile2 kuka_simple_control/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/alex/RosProgramming/kuka/build && $(MAKE) -f CMakeFiles/Makefile2 kuka_simple_control/preinstall
+	cd /home/teacher/PycharmProjects/kukaRos/build && $(MAKE) -f CMakeFiles/Makefile2 kuka_simple_control/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/alex/RosProgramming/kuka/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/teacher/PycharmProjects/kukaRos/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
-
-# Convenience name for target.
-kuka_simple_control/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/alex/RosProgramming/kuka/build && $(MAKE) -f CMakeFiles/Makefile2 kuka_simple_control/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-.PHONY : kuka_simple_control/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_cpp: kuka_simple_control/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-.PHONY : roscpp_generate_messages_cpp
-
-# fast build rule for target.
-roscpp_generate_messages_cpp/fast:
-	cd /home/alex/RosProgramming/kuka/build && $(MAKE) -f kuka_simple_control/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make kuka_simple_control/CMakeFiles/roscpp_generate_messages_cpp.dir/build
-.PHONY : roscpp_generate_messages_cpp/fast
-
-# Convenience name for target.
-kuka_simple_control/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
-	cd /home/alex/RosProgramming/kuka/build && $(MAKE) -f CMakeFiles/Makefile2 kuka_simple_control/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-.PHONY : kuka_simple_control/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_lisp: kuka_simple_control/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-.PHONY : roscpp_generate_messages_lisp
-
-# fast build rule for target.
-roscpp_generate_messages_lisp/fast:
-	cd /home/alex/RosProgramming/kuka/build && $(MAKE) -f kuka_simple_control/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make kuka_simple_control/CMakeFiles/roscpp_generate_messages_lisp.dir/build
-.PHONY : roscpp_generate_messages_lisp/fast
-
-# Convenience name for target.
-kuka_simple_control/CMakeFiles/roscpp_generate_messages_py.dir/rule:
-	cd /home/alex/RosProgramming/kuka/build && $(MAKE) -f CMakeFiles/Makefile2 kuka_simple_control/CMakeFiles/roscpp_generate_messages_py.dir/rule
-.PHONY : kuka_simple_control/CMakeFiles/roscpp_generate_messages_py.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_py: kuka_simple_control/CMakeFiles/roscpp_generate_messages_py.dir/rule
-.PHONY : roscpp_generate_messages_py
-
-# fast build rule for target.
-roscpp_generate_messages_py/fast:
-	cd /home/alex/RosProgramming/kuka/build && $(MAKE) -f kuka_simple_control/CMakeFiles/roscpp_generate_messages_py.dir/build.make kuka_simple_control/CMakeFiles/roscpp_generate_messages_py.dir/build
-.PHONY : roscpp_generate_messages_py/fast
-
-# Convenience name for target.
-kuka_simple_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/alex/RosProgramming/kuka/build && $(MAKE) -f CMakeFiles/Makefile2 kuka_simple_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-.PHONY : kuka_simple_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_cpp: kuka_simple_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-.PHONY : rosgraph_msgs_generate_messages_cpp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/alex/RosProgramming/kuka/build && $(MAKE) -f kuka_simple_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make kuka_simple_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-kuka_simple_control/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd /home/alex/RosProgramming/kuka/build && $(MAKE) -f CMakeFiles/Makefile2 kuka_simple_control/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-.PHONY : kuka_simple_control/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_lisp: kuka_simple_control/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-.PHONY : rosgraph_msgs_generate_messages_lisp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_lisp/fast:
-	cd /home/alex/RosProgramming/kuka/build && $(MAKE) -f kuka_simple_control/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make kuka_simple_control/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-kuka_simple_control/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
-	cd /home/alex/RosProgramming/kuka/build && $(MAKE) -f CMakeFiles/Makefile2 kuka_simple_control/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-.PHONY : kuka_simple_control/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_py: kuka_simple_control/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-.PHONY : rosgraph_msgs_generate_messages_py
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_py/fast:
-	cd /home/alex/RosProgramming/kuka/build && $(MAKE) -f kuka_simple_control/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make kuka_simple_control/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
-.PHONY : rosgraph_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-kuka_simple_control/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
-	cd /home/alex/RosProgramming/kuka/build && $(MAKE) -f CMakeFiles/Makefile2 kuka_simple_control/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-.PHONY : kuka_simple_control/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_cpp: kuka_simple_control/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-.PHONY : std_msgs_generate_messages_cpp
-
-# fast build rule for target.
-std_msgs_generate_messages_cpp/fast:
-	cd /home/alex/RosProgramming/kuka/build && $(MAKE) -f kuka_simple_control/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make kuka_simple_control/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-.PHONY : std_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-kuka_simple_control/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-	cd /home/alex/RosProgramming/kuka/build && $(MAKE) -f CMakeFiles/Makefile2 kuka_simple_control/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-.PHONY : kuka_simple_control/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_lisp: kuka_simple_control/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-.PHONY : std_msgs_generate_messages_lisp
-
-# fast build rule for target.
-std_msgs_generate_messages_lisp/fast:
-	cd /home/alex/RosProgramming/kuka/build && $(MAKE) -f kuka_simple_control/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make kuka_simple_control/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-.PHONY : std_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-kuka_simple_control/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
-	cd /home/alex/RosProgramming/kuka/build && $(MAKE) -f CMakeFiles/Makefile2 kuka_simple_control/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-.PHONY : kuka_simple_control/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_py: kuka_simple_control/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-.PHONY : std_msgs_generate_messages_py
-
-# fast build rule for target.
-std_msgs_generate_messages_py/fast:
-	cd /home/alex/RosProgramming/kuka/build && $(MAKE) -f kuka_simple_control/CMakeFiles/std_msgs_generate_messages_py.dir/build.make kuka_simple_control/CMakeFiles/std_msgs_generate_messages_py.dir/build
-.PHONY : std_msgs_generate_messages_py/fast
 
 # Help Target
 help:
@@ -287,15 +161,6 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... roscpp_generate_messages_cpp"
-	@echo "... roscpp_generate_messages_lisp"
-	@echo "... roscpp_generate_messages_py"
-	@echo "... rosgraph_msgs_generate_messages_cpp"
-	@echo "... rosgraph_msgs_generate_messages_lisp"
-	@echo "... rosgraph_msgs_generate_messages_py"
-	@echo "... std_msgs_generate_messages_cpp"
-	@echo "... std_msgs_generate_messages_lisp"
-	@echo "... std_msgs_generate_messages_py"
 	@echo "... test"
 .PHONY : help
 
@@ -308,6 +173,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/alex/RosProgramming/kuka/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/teacher/PycharmProjects/kukaRos/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,8 +1,8 @@
-prefix=/home/alex/RosProgramming/kuka/install
+prefix=/home/teacher/PycharmProjects/kukaRos/install
 
 Name: youbot_navigation_local
 Description: Description of youbot_navigation_local
 Version: 0.1.0
 Cflags: 
-Libs: -L/home/alex/RosProgramming/kuka/install/lib 
+Libs: -L/home/teacher/PycharmProjects/kukaRos/install/lib 
 Requires: 

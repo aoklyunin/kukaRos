@@ -1,8 +1,0 @@
-prefix=/home/alex/RosProgramming/kuka/install
-
-Name: youbot_ros_hello_world
-Description: Description of youbot_ros_hello_world
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/alex/RosProgramming/kuka/install/lib 
-Requires: 

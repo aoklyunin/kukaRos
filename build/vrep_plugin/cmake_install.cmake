@@ -1,8 +1,8 @@
-# Install script for directory: /home/alex/RosProgramming/kuka/src/vrep_plugin
+# Install script for directory: /home/teacher/PycharmProjects/kukaRos/src/vrep_plugin
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/alex/RosProgramming/kuka/install")
+  SET(CMAKE_INSTALL_PREFIX "/home/teacher/PycharmProjects/kukaRos/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/alex/RosProgramming/kuka/build/vrep_plugin/catkin_generated/installspace/vrep_plugin.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/teacher/PycharmProjects/kukaRos/build/vrep_plugin/catkin_generated/installspace/vrep_plugin.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/vrep_plugin/cmake" TYPE FILE FILES
-    "/home/alex/RosProgramming/kuka/build/vrep_plugin/catkin_generated/installspace/vrep_pluginConfig.cmake"
-    "/home/alex/RosProgramming/kuka/build/vrep_plugin/catkin_generated/installspace/vrep_pluginConfig-version.cmake"
+    "/home/teacher/PycharmProjects/kukaRos/build/vrep_plugin/catkin_generated/installspace/vrep_pluginConfig.cmake"
+    "/home/teacher/PycharmProjects/kukaRos/build/vrep_plugin/catkin_generated/installspace/vrep_pluginConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/vrep_plugin" TYPE FILE FILES "/home/alex/RosProgramming/kuka/src/vrep_plugin/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/vrep_plugin" TYPE FILE FILES "/home/teacher/PycharmProjects/kukaRos/src/vrep_plugin/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

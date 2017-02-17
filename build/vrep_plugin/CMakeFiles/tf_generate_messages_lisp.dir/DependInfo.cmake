@@ -16,8 +16,8 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/alex/RosProgramming/kuka/src/vrep_plugin/include"
-  "/home/alex/RosProgramming/kuka/devel/include"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_plugin/include"
+  "/home/teacher/PycharmProjects/kukaRos/devel/include"
   "/opt/ros/indigo/include"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

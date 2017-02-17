@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alex/RosProgramming/kuka/src
+CMAKE_SOURCE_DIR = /home/teacher/PycharmProjects/kukaRos/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alex/RosProgramming/kuka/build
+CMAKE_BINARY_DIR = /home/teacher/PycharmProjects/kukaRos/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,14 +120,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/alex/RosProgramming/kuka/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/alex/RosProgramming/kuka/build/CMakeFiles /home/alex/RosProgramming/kuka/build/youbot_navigation_local/CMakeFiles/progress.marks
-	cd /home/alex/RosProgramming/kuka/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_navigation_local/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alex/RosProgramming/kuka/build/CMakeFiles 0
+	cd /home/teacher/PycharmProjects/kukaRos/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles /home/teacher/PycharmProjects/kukaRos/build/youbot_navigation_local/CMakeFiles/progress.marks
+	cd /home/teacher/PycharmProjects/kukaRos/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_navigation_local/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/alex/RosProgramming/kuka/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_navigation_local/clean
+	cd /home/teacher/PycharmProjects/kukaRos/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_navigation_local/clean
 .PHONY : clean
 
 # The main clean target
@@ -136,17 +136,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/alex/RosProgramming/kuka/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_navigation_local/preinstall
+	cd /home/teacher/PycharmProjects/kukaRos/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_navigation_local/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/alex/RosProgramming/kuka/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_navigation_local/preinstall
+	cd /home/teacher/PycharmProjects/kukaRos/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_navigation_local/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/alex/RosProgramming/kuka/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/teacher/PycharmProjects/kukaRos/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -173,6 +173,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/alex/RosProgramming/kuka/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/teacher/PycharmProjects/kukaRos/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

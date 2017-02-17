@@ -1,8 +1,8 @@
-# Install script for directory: /home/alex/RosProgramming/kuka/src/kuka_simple_control
+# Install script for directory: /home/teacher/PycharmProjects/kukaRos/src/kuka_simple_control
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/alex/RosProgramming/kuka/install")
+  SET(CMAKE_INSTALL_PREFIX "/home/teacher/PycharmProjects/kukaRos/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/alex/RosProgramming/kuka/build/kuka_simple_control/catkin_generated/installspace/kuka_simple_control.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/teacher/PycharmProjects/kukaRos/build/kuka_simple_control/catkin_generated/installspace/kuka_simple_control.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kuka_simple_control/cmake" TYPE FILE FILES
-    "/home/alex/RosProgramming/kuka/build/kuka_simple_control/catkin_generated/installspace/kuka_simple_controlConfig.cmake"
-    "/home/alex/RosProgramming/kuka/build/kuka_simple_control/catkin_generated/installspace/kuka_simple_controlConfig-version.cmake"
+    "/home/teacher/PycharmProjects/kukaRos/build/kuka_simple_control/catkin_generated/installspace/kuka_simple_controlConfig.cmake"
+    "/home/teacher/PycharmProjects/kukaRos/build/kuka_simple_control/catkin_generated/installspace/kuka_simple_controlConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kuka_simple_control" TYPE FILE FILES "/home/alex/RosProgramming/kuka/src/kuka_simple_control/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kuka_simple_control" TYPE FILE FILES "/home/teacher/PycharmProjects/kukaRos/src/kuka_simple_control/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

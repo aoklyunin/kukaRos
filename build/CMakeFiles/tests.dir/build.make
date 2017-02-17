@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alex/RosProgramming/kuka/src
+CMAKE_SOURCE_DIR = /home/teacher/PycharmProjects/kukaRos/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alex/RosProgramming/kuka/build
+CMAKE_BINARY_DIR = /home/teacher/PycharmProjects/kukaRos/build
 
 # Utility rule file for tests.
 
@@ -60,6 +60,6 @@ CMakeFiles/tests.dir/clean:
 .PHONY : CMakeFiles/tests.dir/clean
 
 CMakeFiles/tests.dir/depend:
-	cd /home/alex/RosProgramming/kuka/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alex/RosProgramming/kuka/src /home/alex/RosProgramming/kuka/src /home/alex/RosProgramming/kuka/build /home/alex/RosProgramming/kuka/build /home/alex/RosProgramming/kuka/build/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/teacher/PycharmProjects/kukaRos/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/teacher/PycharmProjects/kukaRos/src /home/teacher/PycharmProjects/kukaRos/src /home/teacher/PycharmProjects/kukaRos/build /home/teacher/PycharmProjects/kukaRos/build /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tests.dir/depend
 

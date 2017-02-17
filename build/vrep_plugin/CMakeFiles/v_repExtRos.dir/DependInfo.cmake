@@ -4,12 +4,12 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/alex/RosProgramming/kuka/src/vrep_plugin/src/ROS_server.cpp" "/home/alex/RosProgramming/kuka/build/vrep_plugin/CMakeFiles/v_repExtRos.dir/src/ROS_server.cpp.o"
-  "/home/alex/RosProgramming/kuka/src/vrep_plugin/src/scriptFunctionData.cpp" "/home/alex/RosProgramming/kuka/build/vrep_plugin/CMakeFiles/v_repExtRos.dir/src/scriptFunctionData.cpp.o"
-  "/home/alex/RosProgramming/kuka/src/vrep_plugin/src/scriptFunctionDataItem.cpp" "/home/alex/RosProgramming/kuka/build/vrep_plugin/CMakeFiles/v_repExtRos.dir/src/scriptFunctionDataItem.cpp.o"
-  "/home/alex/RosProgramming/kuka/src/vrep_plugin/src/v_repLib.cpp" "/home/alex/RosProgramming/kuka/build/vrep_plugin/CMakeFiles/v_repExtRos.dir/src/v_repLib.cpp.o"
-  "/home/alex/RosProgramming/kuka/src/vrep_plugin/src/vrepSubscriber.cpp" "/home/alex/RosProgramming/kuka/build/vrep_plugin/CMakeFiles/v_repExtRos.dir/src/vrepSubscriber.cpp.o"
-  "/home/alex/RosProgramming/kuka/src/vrep_plugin/src/vrep_plugin.cpp" "/home/alex/RosProgramming/kuka/build/vrep_plugin/CMakeFiles/v_repExtRos.dir/src/vrep_plugin.cpp.o"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_plugin/src/ROS_server.cpp" "/home/teacher/PycharmProjects/kukaRos/build/vrep_plugin/CMakeFiles/v_repExtRos.dir/src/ROS_server.cpp.o"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_plugin/src/scriptFunctionData.cpp" "/home/teacher/PycharmProjects/kukaRos/build/vrep_plugin/CMakeFiles/v_repExtRos.dir/src/scriptFunctionData.cpp.o"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_plugin/src/scriptFunctionDataItem.cpp" "/home/teacher/PycharmProjects/kukaRos/build/vrep_plugin/CMakeFiles/v_repExtRos.dir/src/scriptFunctionDataItem.cpp.o"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_plugin/src/v_repLib.cpp" "/home/teacher/PycharmProjects/kukaRos/build/vrep_plugin/CMakeFiles/v_repExtRos.dir/src/v_repLib.cpp.o"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_plugin/src/vrepSubscriber.cpp" "/home/teacher/PycharmProjects/kukaRos/build/vrep_plugin/CMakeFiles/v_repExtRos.dir/src/vrepSubscriber.cpp.o"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_plugin/src/vrep_plugin.cpp" "/home/teacher/PycharmProjects/kukaRos/build/vrep_plugin/CMakeFiles/v_repExtRos.dir/src/vrep_plugin.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -26,8 +26,8 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/alex/RosProgramming/kuka/src/vrep_plugin/include"
-  "/home/alex/RosProgramming/kuka/devel/include"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_plugin/include"
+  "/home/teacher/PycharmProjects/kukaRos/devel/include"
   "/opt/ros/indigo/include"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

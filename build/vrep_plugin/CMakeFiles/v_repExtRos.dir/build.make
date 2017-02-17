@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alex/RosProgramming/kuka/src
+CMAKE_SOURCE_DIR = /home/teacher/PycharmProjects/kukaRos/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alex/RosProgramming/kuka/build
+CMAKE_BINARY_DIR = /home/teacher/PycharmProjects/kukaRos/build
 
 # Include any dependencies generated for this target.
 include vrep_plugin/CMakeFiles/v_repExtRos.dir/depend.make
@@ -50,18 +50,18 @@ include vrep_plugin/CMakeFiles/v_repExtRos.dir/progress.make
 include vrep_plugin/CMakeFiles/v_repExtRos.dir/flags.make
 
 vrep_plugin/CMakeFiles/v_repExtRos.dir/src/vrep_plugin.cpp.o: vrep_plugin/CMakeFiles/v_repExtRos.dir/flags.make
-vrep_plugin/CMakeFiles/v_repExtRos.dir/src/vrep_plugin.cpp.o: /home/alex/RosProgramming/kuka/src/vrep_plugin/src/vrep_plugin.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_1)
+vrep_plugin/CMakeFiles/v_repExtRos.dir/src/vrep_plugin.cpp.o: /home/teacher/PycharmProjects/kukaRos/src/vrep_plugin/src/vrep_plugin.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object vrep_plugin/CMakeFiles/v_repExtRos.dir/src/vrep_plugin.cpp.o"
-	cd /home/alex/RosProgramming/kuka/build/vrep_plugin && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/v_repExtRos.dir/src/vrep_plugin.cpp.o -c /home/alex/RosProgramming/kuka/src/vrep_plugin/src/vrep_plugin.cpp
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_plugin && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/v_repExtRos.dir/src/vrep_plugin.cpp.o -c /home/teacher/PycharmProjects/kukaRos/src/vrep_plugin/src/vrep_plugin.cpp
 
 vrep_plugin/CMakeFiles/v_repExtRos.dir/src/vrep_plugin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/v_repExtRos.dir/src/vrep_plugin.cpp.i"
-	cd /home/alex/RosProgramming/kuka/build/vrep_plugin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/alex/RosProgramming/kuka/src/vrep_plugin/src/vrep_plugin.cpp > CMakeFiles/v_repExtRos.dir/src/vrep_plugin.cpp.i
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_plugin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/teacher/PycharmProjects/kukaRos/src/vrep_plugin/src/vrep_plugin.cpp > CMakeFiles/v_repExtRos.dir/src/vrep_plugin.cpp.i
 
 vrep_plugin/CMakeFiles/v_repExtRos.dir/src/vrep_plugin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/v_repExtRos.dir/src/vrep_plugin.cpp.s"
-	cd /home/alex/RosProgramming/kuka/build/vrep_plugin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/alex/RosProgramming/kuka/src/vrep_plugin/src/vrep_plugin.cpp -o CMakeFiles/v_repExtRos.dir/src/vrep_plugin.cpp.s
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_plugin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/teacher/PycharmProjects/kukaRos/src/vrep_plugin/src/vrep_plugin.cpp -o CMakeFiles/v_repExtRos.dir/src/vrep_plugin.cpp.s
 
 vrep_plugin/CMakeFiles/v_repExtRos.dir/src/vrep_plugin.cpp.o.requires:
 .PHONY : vrep_plugin/CMakeFiles/v_repExtRos.dir/src/vrep_plugin.cpp.o.requires
@@ -73,18 +73,18 @@ vrep_plugin/CMakeFiles/v_repExtRos.dir/src/vrep_plugin.cpp.o.provides: vrep_plug
 vrep_plugin/CMakeFiles/v_repExtRos.dir/src/vrep_plugin.cpp.o.provides.build: vrep_plugin/CMakeFiles/v_repExtRos.dir/src/vrep_plugin.cpp.o
 
 vrep_plugin/CMakeFiles/v_repExtRos.dir/src/scriptFunctionData.cpp.o: vrep_plugin/CMakeFiles/v_repExtRos.dir/flags.make
-vrep_plugin/CMakeFiles/v_repExtRos.dir/src/scriptFunctionData.cpp.o: /home/alex/RosProgramming/kuka/src/vrep_plugin/src/scriptFunctionData.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_2)
+vrep_plugin/CMakeFiles/v_repExtRos.dir/src/scriptFunctionData.cpp.o: /home/teacher/PycharmProjects/kukaRos/src/vrep_plugin/src/scriptFunctionData.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object vrep_plugin/CMakeFiles/v_repExtRos.dir/src/scriptFunctionData.cpp.o"
-	cd /home/alex/RosProgramming/kuka/build/vrep_plugin && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/v_repExtRos.dir/src/scriptFunctionData.cpp.o -c /home/alex/RosProgramming/kuka/src/vrep_plugin/src/scriptFunctionData.cpp
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_plugin && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/v_repExtRos.dir/src/scriptFunctionData.cpp.o -c /home/teacher/PycharmProjects/kukaRos/src/vrep_plugin/src/scriptFunctionData.cpp
 
 vrep_plugin/CMakeFiles/v_repExtRos.dir/src/scriptFunctionData.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/v_repExtRos.dir/src/scriptFunctionData.cpp.i"
-	cd /home/alex/RosProgramming/kuka/build/vrep_plugin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/alex/RosProgramming/kuka/src/vrep_plugin/src/scriptFunctionData.cpp > CMakeFiles/v_repExtRos.dir/src/scriptFunctionData.cpp.i
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_plugin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/teacher/PycharmProjects/kukaRos/src/vrep_plugin/src/scriptFunctionData.cpp > CMakeFiles/v_repExtRos.dir/src/scriptFunctionData.cpp.i
 
 vrep_plugin/CMakeFiles/v_repExtRos.dir/src/scriptFunctionData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/v_repExtRos.dir/src/scriptFunctionData.cpp.s"
-	cd /home/alex/RosProgramming/kuka/build/vrep_plugin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/alex/RosProgramming/kuka/src/vrep_plugin/src/scriptFunctionData.cpp -o CMakeFiles/v_repExtRos.dir/src/scriptFunctionData.cpp.s
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_plugin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/teacher/PycharmProjects/kukaRos/src/vrep_plugin/src/scriptFunctionData.cpp -o CMakeFiles/v_repExtRos.dir/src/scriptFunctionData.cpp.s
 
 vrep_plugin/CMakeFiles/v_repExtRos.dir/src/scriptFunctionData.cpp.o.requires:
 .PHONY : vrep_plugin/CMakeFiles/v_repExtRos.dir/src/scriptFunctionData.cpp.o.requires
@@ -96,18 +96,18 @@ vrep_plugin/CMakeFiles/v_repExtRos.dir/src/scriptFunctionData.cpp.o.provides: vr
 vrep_plugin/CMakeFiles/v_repExtRos.dir/src/scriptFunctionData.cpp.o.provides.build: vrep_plugin/CMakeFiles/v_repExtRos.dir/src/scriptFunctionData.cpp.o
 
 vrep_plugin/CMakeFiles/v_repExtRos.dir/src/scriptFunctionDataItem.cpp.o: vrep_plugin/CMakeFiles/v_repExtRos.dir/flags.make
-vrep_plugin/CMakeFiles/v_repExtRos.dir/src/scriptFunctionDataItem.cpp.o: /home/alex/RosProgramming/kuka/src/vrep_plugin/src/scriptFunctionDataItem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_3)
+vrep_plugin/CMakeFiles/v_repExtRos.dir/src/scriptFunctionDataItem.cpp.o: /home/teacher/PycharmProjects/kukaRos/src/vrep_plugin/src/scriptFunctionDataItem.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object vrep_plugin/CMakeFiles/v_repExtRos.dir/src/scriptFunctionDataItem.cpp.o"
-	cd /home/alex/RosProgramming/kuka/build/vrep_plugin && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/v_repExtRos.dir/src/scriptFunctionDataItem.cpp.o -c /home/alex/RosProgramming/kuka/src/vrep_plugin/src/scriptFunctionDataItem.cpp
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_plugin && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/v_repExtRos.dir/src/scriptFunctionDataItem.cpp.o -c /home/teacher/PycharmProjects/kukaRos/src/vrep_plugin/src/scriptFunctionDataItem.cpp
 
 vrep_plugin/CMakeFiles/v_repExtRos.dir/src/scriptFunctionDataItem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/v_repExtRos.dir/src/scriptFunctionDataItem.cpp.i"
-	cd /home/alex/RosProgramming/kuka/build/vrep_plugin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/alex/RosProgramming/kuka/src/vrep_plugin/src/scriptFunctionDataItem.cpp > CMakeFiles/v_repExtRos.dir/src/scriptFunctionDataItem.cpp.i
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_plugin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/teacher/PycharmProjects/kukaRos/src/vrep_plugin/src/scriptFunctionDataItem.cpp > CMakeFiles/v_repExtRos.dir/src/scriptFunctionDataItem.cpp.i
 
 vrep_plugin/CMakeFiles/v_repExtRos.dir/src/scriptFunctionDataItem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/v_repExtRos.dir/src/scriptFunctionDataItem.cpp.s"
-	cd /home/alex/RosProgramming/kuka/build/vrep_plugin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/alex/RosProgramming/kuka/src/vrep_plugin/src/scriptFunctionDataItem.cpp -o CMakeFiles/v_repExtRos.dir/src/scriptFunctionDataItem.cpp.s
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_plugin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/teacher/PycharmProjects/kukaRos/src/vrep_plugin/src/scriptFunctionDataItem.cpp -o CMakeFiles/v_repExtRos.dir/src/scriptFunctionDataItem.cpp.s
 
 vrep_plugin/CMakeFiles/v_repExtRos.dir/src/scriptFunctionDataItem.cpp.o.requires:
 .PHONY : vrep_plugin/CMakeFiles/v_repExtRos.dir/src/scriptFunctionDataItem.cpp.o.requires
@@ -119,18 +119,18 @@ vrep_plugin/CMakeFiles/v_repExtRos.dir/src/scriptFunctionDataItem.cpp.o.provides
 vrep_plugin/CMakeFiles/v_repExtRos.dir/src/scriptFunctionDataItem.cpp.o.provides.build: vrep_plugin/CMakeFiles/v_repExtRos.dir/src/scriptFunctionDataItem.cpp.o
 
 vrep_plugin/CMakeFiles/v_repExtRos.dir/src/v_repLib.cpp.o: vrep_plugin/CMakeFiles/v_repExtRos.dir/flags.make
-vrep_plugin/CMakeFiles/v_repExtRos.dir/src/v_repLib.cpp.o: /home/alex/RosProgramming/kuka/src/vrep_plugin/src/v_repLib.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_4)
+vrep_plugin/CMakeFiles/v_repExtRos.dir/src/v_repLib.cpp.o: /home/teacher/PycharmProjects/kukaRos/src/vrep_plugin/src/v_repLib.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object vrep_plugin/CMakeFiles/v_repExtRos.dir/src/v_repLib.cpp.o"
-	cd /home/alex/RosProgramming/kuka/build/vrep_plugin && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/v_repExtRos.dir/src/v_repLib.cpp.o -c /home/alex/RosProgramming/kuka/src/vrep_plugin/src/v_repLib.cpp
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_plugin && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/v_repExtRos.dir/src/v_repLib.cpp.o -c /home/teacher/PycharmProjects/kukaRos/src/vrep_plugin/src/v_repLib.cpp
 
 vrep_plugin/CMakeFiles/v_repExtRos.dir/src/v_repLib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/v_repExtRos.dir/src/v_repLib.cpp.i"
-	cd /home/alex/RosProgramming/kuka/build/vrep_plugin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/alex/RosProgramming/kuka/src/vrep_plugin/src/v_repLib.cpp > CMakeFiles/v_repExtRos.dir/src/v_repLib.cpp.i
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_plugin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/teacher/PycharmProjects/kukaRos/src/vrep_plugin/src/v_repLib.cpp > CMakeFiles/v_repExtRos.dir/src/v_repLib.cpp.i
 
 vrep_plugin/CMakeFiles/v_repExtRos.dir/src/v_repLib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/v_repExtRos.dir/src/v_repLib.cpp.s"
-	cd /home/alex/RosProgramming/kuka/build/vrep_plugin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/alex/RosProgramming/kuka/src/vrep_plugin/src/v_repLib.cpp -o CMakeFiles/v_repExtRos.dir/src/v_repLib.cpp.s
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_plugin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/teacher/PycharmProjects/kukaRos/src/vrep_plugin/src/v_repLib.cpp -o CMakeFiles/v_repExtRos.dir/src/v_repLib.cpp.s
 
 vrep_plugin/CMakeFiles/v_repExtRos.dir/src/v_repLib.cpp.o.requires:
 .PHONY : vrep_plugin/CMakeFiles/v_repExtRos.dir/src/v_repLib.cpp.o.requires
@@ -142,18 +142,18 @@ vrep_plugin/CMakeFiles/v_repExtRos.dir/src/v_repLib.cpp.o.provides: vrep_plugin/
 vrep_plugin/CMakeFiles/v_repExtRos.dir/src/v_repLib.cpp.o.provides.build: vrep_plugin/CMakeFiles/v_repExtRos.dir/src/v_repLib.cpp.o
 
 vrep_plugin/CMakeFiles/v_repExtRos.dir/src/ROS_server.cpp.o: vrep_plugin/CMakeFiles/v_repExtRos.dir/flags.make
-vrep_plugin/CMakeFiles/v_repExtRos.dir/src/ROS_server.cpp.o: /home/alex/RosProgramming/kuka/src/vrep_plugin/src/ROS_server.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_5)
+vrep_plugin/CMakeFiles/v_repExtRos.dir/src/ROS_server.cpp.o: /home/teacher/PycharmProjects/kukaRos/src/vrep_plugin/src/ROS_server.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object vrep_plugin/CMakeFiles/v_repExtRos.dir/src/ROS_server.cpp.o"
-	cd /home/alex/RosProgramming/kuka/build/vrep_plugin && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/v_repExtRos.dir/src/ROS_server.cpp.o -c /home/alex/RosProgramming/kuka/src/vrep_plugin/src/ROS_server.cpp
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_plugin && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/v_repExtRos.dir/src/ROS_server.cpp.o -c /home/teacher/PycharmProjects/kukaRos/src/vrep_plugin/src/ROS_server.cpp
 
 vrep_plugin/CMakeFiles/v_repExtRos.dir/src/ROS_server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/v_repExtRos.dir/src/ROS_server.cpp.i"
-	cd /home/alex/RosProgramming/kuka/build/vrep_plugin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/alex/RosProgramming/kuka/src/vrep_plugin/src/ROS_server.cpp > CMakeFiles/v_repExtRos.dir/src/ROS_server.cpp.i
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_plugin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/teacher/PycharmProjects/kukaRos/src/vrep_plugin/src/ROS_server.cpp > CMakeFiles/v_repExtRos.dir/src/ROS_server.cpp.i
 
 vrep_plugin/CMakeFiles/v_repExtRos.dir/src/ROS_server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/v_repExtRos.dir/src/ROS_server.cpp.s"
-	cd /home/alex/RosProgramming/kuka/build/vrep_plugin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/alex/RosProgramming/kuka/src/vrep_plugin/src/ROS_server.cpp -o CMakeFiles/v_repExtRos.dir/src/ROS_server.cpp.s
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_plugin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/teacher/PycharmProjects/kukaRos/src/vrep_plugin/src/ROS_server.cpp -o CMakeFiles/v_repExtRos.dir/src/ROS_server.cpp.s
 
 vrep_plugin/CMakeFiles/v_repExtRos.dir/src/ROS_server.cpp.o.requires:
 .PHONY : vrep_plugin/CMakeFiles/v_repExtRos.dir/src/ROS_server.cpp.o.requires
@@ -165,18 +165,18 @@ vrep_plugin/CMakeFiles/v_repExtRos.dir/src/ROS_server.cpp.o.provides: vrep_plugi
 vrep_plugin/CMakeFiles/v_repExtRos.dir/src/ROS_server.cpp.o.provides.build: vrep_plugin/CMakeFiles/v_repExtRos.dir/src/ROS_server.cpp.o
 
 vrep_plugin/CMakeFiles/v_repExtRos.dir/src/vrepSubscriber.cpp.o: vrep_plugin/CMakeFiles/v_repExtRos.dir/flags.make
-vrep_plugin/CMakeFiles/v_repExtRos.dir/src/vrepSubscriber.cpp.o: /home/alex/RosProgramming/kuka/src/vrep_plugin/src/vrepSubscriber.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_6)
+vrep_plugin/CMakeFiles/v_repExtRos.dir/src/vrepSubscriber.cpp.o: /home/teacher/PycharmProjects/kukaRos/src/vrep_plugin/src/vrepSubscriber.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object vrep_plugin/CMakeFiles/v_repExtRos.dir/src/vrepSubscriber.cpp.o"
-	cd /home/alex/RosProgramming/kuka/build/vrep_plugin && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/v_repExtRos.dir/src/vrepSubscriber.cpp.o -c /home/alex/RosProgramming/kuka/src/vrep_plugin/src/vrepSubscriber.cpp
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_plugin && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/v_repExtRos.dir/src/vrepSubscriber.cpp.o -c /home/teacher/PycharmProjects/kukaRos/src/vrep_plugin/src/vrepSubscriber.cpp
 
 vrep_plugin/CMakeFiles/v_repExtRos.dir/src/vrepSubscriber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/v_repExtRos.dir/src/vrepSubscriber.cpp.i"
-	cd /home/alex/RosProgramming/kuka/build/vrep_plugin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/alex/RosProgramming/kuka/src/vrep_plugin/src/vrepSubscriber.cpp > CMakeFiles/v_repExtRos.dir/src/vrepSubscriber.cpp.i
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_plugin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/teacher/PycharmProjects/kukaRos/src/vrep_plugin/src/vrepSubscriber.cpp > CMakeFiles/v_repExtRos.dir/src/vrepSubscriber.cpp.i
 
 vrep_plugin/CMakeFiles/v_repExtRos.dir/src/vrepSubscriber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/v_repExtRos.dir/src/vrepSubscriber.cpp.s"
-	cd /home/alex/RosProgramming/kuka/build/vrep_plugin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/alex/RosProgramming/kuka/src/vrep_plugin/src/vrepSubscriber.cpp -o CMakeFiles/v_repExtRos.dir/src/vrepSubscriber.cpp.s
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_plugin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/teacher/PycharmProjects/kukaRos/src/vrep_plugin/src/vrepSubscriber.cpp -o CMakeFiles/v_repExtRos.dir/src/vrepSubscriber.cpp.s
 
 vrep_plugin/CMakeFiles/v_repExtRos.dir/src/vrepSubscriber.cpp.o.requires:
 .PHONY : vrep_plugin/CMakeFiles/v_repExtRos.dir/src/vrepSubscriber.cpp.o.requires
@@ -199,47 +199,47 @@ v_repExtRos_OBJECTS = \
 # External object files for target v_repExtRos
 v_repExtRos_EXTERNAL_OBJECTS =
 
-/home/alex/RosProgramming/kuka/devel/lib/libv_repExtRos.so: vrep_plugin/CMakeFiles/v_repExtRos.dir/src/vrep_plugin.cpp.o
-/home/alex/RosProgramming/kuka/devel/lib/libv_repExtRos.so: vrep_plugin/CMakeFiles/v_repExtRos.dir/src/scriptFunctionData.cpp.o
-/home/alex/RosProgramming/kuka/devel/lib/libv_repExtRos.so: vrep_plugin/CMakeFiles/v_repExtRos.dir/src/scriptFunctionDataItem.cpp.o
-/home/alex/RosProgramming/kuka/devel/lib/libv_repExtRos.so: vrep_plugin/CMakeFiles/v_repExtRos.dir/src/v_repLib.cpp.o
-/home/alex/RosProgramming/kuka/devel/lib/libv_repExtRos.so: vrep_plugin/CMakeFiles/v_repExtRos.dir/src/ROS_server.cpp.o
-/home/alex/RosProgramming/kuka/devel/lib/libv_repExtRos.so: vrep_plugin/CMakeFiles/v_repExtRos.dir/src/vrepSubscriber.cpp.o
-/home/alex/RosProgramming/kuka/devel/lib/libv_repExtRos.so: vrep_plugin/CMakeFiles/v_repExtRos.dir/build.make
-/home/alex/RosProgramming/kuka/devel/lib/libv_repExtRos.so: /opt/ros/indigo/lib/libimage_transport.so
-/home/alex/RosProgramming/kuka/devel/lib/libv_repExtRos.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/alex/RosProgramming/kuka/devel/lib/libv_repExtRos.so: /opt/ros/indigo/lib/libclass_loader.so
-/home/alex/RosProgramming/kuka/devel/lib/libv_repExtRos.so: /usr/lib/libPocoFoundation.so
-/home/alex/RosProgramming/kuka/devel/lib/libv_repExtRos.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/alex/RosProgramming/kuka/devel/lib/libv_repExtRos.so: /opt/ros/indigo/lib/libroslib.so
-/home/alex/RosProgramming/kuka/devel/lib/libv_repExtRos.so: /opt/ros/indigo/lib/libtf.so
-/home/alex/RosProgramming/kuka/devel/lib/libv_repExtRos.so: /opt/ros/indigo/lib/libtf2_ros.so
-/home/alex/RosProgramming/kuka/devel/lib/libv_repExtRos.so: /opt/ros/indigo/lib/libactionlib.so
-/home/alex/RosProgramming/kuka/devel/lib/libv_repExtRos.so: /opt/ros/indigo/lib/libmessage_filters.so
-/home/alex/RosProgramming/kuka/devel/lib/libv_repExtRos.so: /opt/ros/indigo/lib/libroscpp.so
-/home/alex/RosProgramming/kuka/devel/lib/libv_repExtRos.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/alex/RosProgramming/kuka/devel/lib/libv_repExtRos.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/alex/RosProgramming/kuka/devel/lib/libv_repExtRos.so: /opt/ros/indigo/lib/libxmlrpcpp.so
-/home/alex/RosProgramming/kuka/devel/lib/libv_repExtRos.so: /opt/ros/indigo/lib/libtf2.so
-/home/alex/RosProgramming/kuka/devel/lib/libv_repExtRos.so: /opt/ros/indigo/lib/librosconsole.so
-/home/alex/RosProgramming/kuka/devel/lib/libv_repExtRos.so: /opt/ros/indigo/lib/librosconsole_log4cxx.so
-/home/alex/RosProgramming/kuka/devel/lib/libv_repExtRos.so: /opt/ros/indigo/lib/librosconsole_backend_interface.so
-/home/alex/RosProgramming/kuka/devel/lib/libv_repExtRos.so: /usr/lib/liblog4cxx.so
-/home/alex/RosProgramming/kuka/devel/lib/libv_repExtRos.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/alex/RosProgramming/kuka/devel/lib/libv_repExtRos.so: /opt/ros/indigo/lib/libroscpp_serialization.so
-/home/alex/RosProgramming/kuka/devel/lib/libv_repExtRos.so: /opt/ros/indigo/lib/librostime.so
-/home/alex/RosProgramming/kuka/devel/lib/libv_repExtRos.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/alex/RosProgramming/kuka/devel/lib/libv_repExtRos.so: /opt/ros/indigo/lib/libcpp_common.so
-/home/alex/RosProgramming/kuka/devel/lib/libv_repExtRos.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/alex/RosProgramming/kuka/devel/lib/libv_repExtRos.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/alex/RosProgramming/kuka/devel/lib/libv_repExtRos.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/alex/RosProgramming/kuka/devel/lib/libv_repExtRos.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/alex/RosProgramming/kuka/devel/lib/libv_repExtRos.so: vrep_plugin/CMakeFiles/v_repExtRos.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library /home/alex/RosProgramming/kuka/devel/lib/libv_repExtRos.so"
-	cd /home/alex/RosProgramming/kuka/build/vrep_plugin && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/v_repExtRos.dir/link.txt --verbose=$(VERBOSE)
+/home/teacher/PycharmProjects/kukaRos/devel/lib/libv_repExtRos.so: vrep_plugin/CMakeFiles/v_repExtRos.dir/src/vrep_plugin.cpp.o
+/home/teacher/PycharmProjects/kukaRos/devel/lib/libv_repExtRos.so: vrep_plugin/CMakeFiles/v_repExtRos.dir/src/scriptFunctionData.cpp.o
+/home/teacher/PycharmProjects/kukaRos/devel/lib/libv_repExtRos.so: vrep_plugin/CMakeFiles/v_repExtRos.dir/src/scriptFunctionDataItem.cpp.o
+/home/teacher/PycharmProjects/kukaRos/devel/lib/libv_repExtRos.so: vrep_plugin/CMakeFiles/v_repExtRos.dir/src/v_repLib.cpp.o
+/home/teacher/PycharmProjects/kukaRos/devel/lib/libv_repExtRos.so: vrep_plugin/CMakeFiles/v_repExtRos.dir/src/ROS_server.cpp.o
+/home/teacher/PycharmProjects/kukaRos/devel/lib/libv_repExtRos.so: vrep_plugin/CMakeFiles/v_repExtRos.dir/src/vrepSubscriber.cpp.o
+/home/teacher/PycharmProjects/kukaRos/devel/lib/libv_repExtRos.so: vrep_plugin/CMakeFiles/v_repExtRos.dir/build.make
+/home/teacher/PycharmProjects/kukaRos/devel/lib/libv_repExtRos.so: /opt/ros/indigo/lib/libimage_transport.so
+/home/teacher/PycharmProjects/kukaRos/devel/lib/libv_repExtRos.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/teacher/PycharmProjects/kukaRos/devel/lib/libv_repExtRos.so: /opt/ros/indigo/lib/libclass_loader.so
+/home/teacher/PycharmProjects/kukaRos/devel/lib/libv_repExtRos.so: /usr/lib/libPocoFoundation.so
+/home/teacher/PycharmProjects/kukaRos/devel/lib/libv_repExtRos.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/teacher/PycharmProjects/kukaRos/devel/lib/libv_repExtRos.so: /opt/ros/indigo/lib/libroslib.so
+/home/teacher/PycharmProjects/kukaRos/devel/lib/libv_repExtRos.so: /opt/ros/indigo/lib/libtf.so
+/home/teacher/PycharmProjects/kukaRos/devel/lib/libv_repExtRos.so: /opt/ros/indigo/lib/libtf2_ros.so
+/home/teacher/PycharmProjects/kukaRos/devel/lib/libv_repExtRos.so: /opt/ros/indigo/lib/libactionlib.so
+/home/teacher/PycharmProjects/kukaRos/devel/lib/libv_repExtRos.so: /opt/ros/indigo/lib/libmessage_filters.so
+/home/teacher/PycharmProjects/kukaRos/devel/lib/libv_repExtRos.so: /opt/ros/indigo/lib/libroscpp.so
+/home/teacher/PycharmProjects/kukaRos/devel/lib/libv_repExtRos.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/teacher/PycharmProjects/kukaRos/devel/lib/libv_repExtRos.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/teacher/PycharmProjects/kukaRos/devel/lib/libv_repExtRos.so: /opt/ros/indigo/lib/libxmlrpcpp.so
+/home/teacher/PycharmProjects/kukaRos/devel/lib/libv_repExtRos.so: /opt/ros/indigo/lib/libtf2.so
+/home/teacher/PycharmProjects/kukaRos/devel/lib/libv_repExtRos.so: /opt/ros/indigo/lib/librosconsole.so
+/home/teacher/PycharmProjects/kukaRos/devel/lib/libv_repExtRos.so: /opt/ros/indigo/lib/librosconsole_log4cxx.so
+/home/teacher/PycharmProjects/kukaRos/devel/lib/libv_repExtRos.so: /opt/ros/indigo/lib/librosconsole_backend_interface.so
+/home/teacher/PycharmProjects/kukaRos/devel/lib/libv_repExtRos.so: /usr/lib/liblog4cxx.so
+/home/teacher/PycharmProjects/kukaRos/devel/lib/libv_repExtRos.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/teacher/PycharmProjects/kukaRos/devel/lib/libv_repExtRos.so: /opt/ros/indigo/lib/libroscpp_serialization.so
+/home/teacher/PycharmProjects/kukaRos/devel/lib/libv_repExtRos.so: /opt/ros/indigo/lib/librostime.so
+/home/teacher/PycharmProjects/kukaRos/devel/lib/libv_repExtRos.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/teacher/PycharmProjects/kukaRos/devel/lib/libv_repExtRos.so: /opt/ros/indigo/lib/libcpp_common.so
+/home/teacher/PycharmProjects/kukaRos/devel/lib/libv_repExtRos.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/teacher/PycharmProjects/kukaRos/devel/lib/libv_repExtRos.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/teacher/PycharmProjects/kukaRos/devel/lib/libv_repExtRos.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/teacher/PycharmProjects/kukaRos/devel/lib/libv_repExtRos.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/teacher/PycharmProjects/kukaRos/devel/lib/libv_repExtRos.so: vrep_plugin/CMakeFiles/v_repExtRos.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library /home/teacher/PycharmProjects/kukaRos/devel/lib/libv_repExtRos.so"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_plugin && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/v_repExtRos.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-vrep_plugin/CMakeFiles/v_repExtRos.dir/build: /home/alex/RosProgramming/kuka/devel/lib/libv_repExtRos.so
+vrep_plugin/CMakeFiles/v_repExtRos.dir/build: /home/teacher/PycharmProjects/kukaRos/devel/lib/libv_repExtRos.so
 .PHONY : vrep_plugin/CMakeFiles/v_repExtRos.dir/build
 
 vrep_plugin/CMakeFiles/v_repExtRos.dir/requires: vrep_plugin/CMakeFiles/v_repExtRos.dir/src/vrep_plugin.cpp.o.requires
@@ -251,10 +251,10 @@ vrep_plugin/CMakeFiles/v_repExtRos.dir/requires: vrep_plugin/CMakeFiles/v_repExt
 .PHONY : vrep_plugin/CMakeFiles/v_repExtRos.dir/requires
 
 vrep_plugin/CMakeFiles/v_repExtRos.dir/clean:
-	cd /home/alex/RosProgramming/kuka/build/vrep_plugin && $(CMAKE_COMMAND) -P CMakeFiles/v_repExtRos.dir/cmake_clean.cmake
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_plugin && $(CMAKE_COMMAND) -P CMakeFiles/v_repExtRos.dir/cmake_clean.cmake
 .PHONY : vrep_plugin/CMakeFiles/v_repExtRos.dir/clean
 
 vrep_plugin/CMakeFiles/v_repExtRos.dir/depend:
-	cd /home/alex/RosProgramming/kuka/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alex/RosProgramming/kuka/src /home/alex/RosProgramming/kuka/src/vrep_plugin /home/alex/RosProgramming/kuka/build /home/alex/RosProgramming/kuka/build/vrep_plugin /home/alex/RosProgramming/kuka/build/vrep_plugin/CMakeFiles/v_repExtRos.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/teacher/PycharmProjects/kukaRos/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/teacher/PycharmProjects/kukaRos/src /home/teacher/PycharmProjects/kukaRos/src/vrep_plugin /home/teacher/PycharmProjects/kukaRos/build /home/teacher/PycharmProjects/kukaRos/build/vrep_plugin /home/teacher/PycharmProjects/kukaRos/build/vrep_plugin/CMakeFiles/v_repExtRos.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : vrep_plugin/CMakeFiles/v_repExtRos.dir/depend
 

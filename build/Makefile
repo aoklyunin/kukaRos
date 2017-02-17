@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alex/RosProgramming/kuka/src
+CMAKE_SOURCE_DIR = /home/teacher/PycharmProjects/kukaRos/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alex/RosProgramming/kuka/build
+CMAKE_BINARY_DIR = /home/teacher/PycharmProjects/kukaRos/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,9 +120,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alex/RosProgramming/kuka/build/CMakeFiles /home/alex/RosProgramming/kuka/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alex/RosProgramming/kuka/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -250,7 +250,7 @@ roscpp_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_cpp/fast:
-	$(MAKE) -f kuka_simple_control/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make kuka_simple_control/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	$(MAKE) -f kawasaki_system/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make kawasaki_system/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
 
 #=============================================================================
@@ -263,7 +263,7 @@ roscpp_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_lisp/fast:
-	$(MAKE) -f kuka_simple_control/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make kuka_simple_control/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	$(MAKE) -f kawasaki_system/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make kawasaki_system/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
 
 #=============================================================================
@@ -276,7 +276,7 @@ roscpp_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_py/fast:
-	$(MAKE) -f kuka_simple_control/CMakeFiles/roscpp_generate_messages_py.dir/build.make kuka_simple_control/CMakeFiles/roscpp_generate_messages_py.dir/build
+	$(MAKE) -f kawasaki_system/CMakeFiles/roscpp_generate_messages_py.dir/build.make kawasaki_system/CMakeFiles/roscpp_generate_messages_py.dir/build
 .PHONY : roscpp_generate_messages_py/fast
 
 #=============================================================================
@@ -289,7 +289,7 @@ rosgraph_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f kuka_simple_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make kuka_simple_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f kawasaki_system/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make kawasaki_system/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -302,7 +302,7 @@ rosgraph_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f kuka_simple_control/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make kuka_simple_control/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f kawasaki_system/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make kawasaki_system/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -315,7 +315,7 @@ rosgraph_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_py/fast:
-	$(MAKE) -f kuka_simple_control/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make kuka_simple_control/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	$(MAKE) -f kawasaki_system/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make kawasaki_system/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -328,7 +328,7 @@ std_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f kuka_simple_control/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make kuka_simple_control/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f kawasaki_system/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make kawasaki_system/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -341,7 +341,7 @@ std_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f kuka_simple_control/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make kuka_simple_control/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f kawasaki_system/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make kawasaki_system/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -354,7 +354,7 @@ std_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_py/fast:
-	$(MAKE) -f kuka_simple_control/CMakeFiles/std_msgs_generate_messages_py.dir/build.make kuka_simple_control/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	$(MAKE) -f kawasaki_system/CMakeFiles/std_msgs_generate_messages_py.dir/build.make kawasaki_system/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -2074,58 +2074,6 @@ v_repExtRos/fast:
 .PHONY : v_repExtRos/fast
 
 #=============================================================================
-# Target rules for targets named brics_actuator_generate_messages_cpp
-
-# Build rule for target.
-brics_actuator_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 brics_actuator_generate_messages_cpp
-.PHONY : brics_actuator_generate_messages_cpp
-
-# fast build rule for target.
-brics_actuator_generate_messages_cpp/fast:
-	$(MAKE) -f vrep_youbot_plugin/CMakeFiles/brics_actuator_generate_messages_cpp.dir/build.make vrep_youbot_plugin/CMakeFiles/brics_actuator_generate_messages_cpp.dir/build
-.PHONY : brics_actuator_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named brics_actuator_generate_messages_lisp
-
-# Build rule for target.
-brics_actuator_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 brics_actuator_generate_messages_lisp
-.PHONY : brics_actuator_generate_messages_lisp
-
-# fast build rule for target.
-brics_actuator_generate_messages_lisp/fast:
-	$(MAKE) -f vrep_youbot_plugin/CMakeFiles/brics_actuator_generate_messages_lisp.dir/build.make vrep_youbot_plugin/CMakeFiles/brics_actuator_generate_messages_lisp.dir/build
-.PHONY : brics_actuator_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named brics_actuator_generate_messages_py
-
-# Build rule for target.
-brics_actuator_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 brics_actuator_generate_messages_py
-.PHONY : brics_actuator_generate_messages_py
-
-# fast build rule for target.
-brics_actuator_generate_messages_py/fast:
-	$(MAKE) -f vrep_youbot_plugin/CMakeFiles/brics_actuator_generate_messages_py.dir/build.make vrep_youbot_plugin/CMakeFiles/brics_actuator_generate_messages_py.dir/build
-.PHONY : brics_actuator_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named v_repExtyouBot
-
-# Build rule for target.
-v_repExtyouBot: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 v_repExtyouBot
-.PHONY : v_repExtyouBot
-
-# fast build rule for target.
-v_repExtyouBot/fast:
-	$(MAKE) -f vrep_youbot_plugin/CMakeFiles/v_repExtyouBot.dir/build.make vrep_youbot_plugin/CMakeFiles/v_repExtyouBot.dir/build
-.PHONY : v_repExtyouBot/fast
-
-#=============================================================================
 # Target rules for targets named lowpass_filter
 
 # Build rule for target.
@@ -2137,110 +2085,6 @@ lowpass_filter: cmake_check_build_system
 lowpass_filter/fast:
 	$(MAKE) -f youbot_navigation_common/CMakeFiles/lowpass_filter.dir/build.make youbot_navigation_common/CMakeFiles/lowpass_filter.dir/build
 .PHONY : lowpass_filter/fast
-
-#=============================================================================
-# Target rules for targets named youbot_ros_hello_world
-
-# Build rule for target.
-youbot_ros_hello_world: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 youbot_ros_hello_world
-.PHONY : youbot_ros_hello_world
-
-# fast build rule for target.
-youbot_ros_hello_world/fast:
-	$(MAKE) -f youbot_ros_samples/youbot_ros_hello_world/CMakeFiles/youbot_ros_hello_world.dir/build.make youbot_ros_samples/youbot_ros_hello_world/CMakeFiles/youbot_ros_hello_world.dir/build
-.PHONY : youbot_ros_hello_world/fast
-
-#=============================================================================
-# Target rules for targets named control_msgs_generate_messages_cpp
-
-# Build rule for target.
-control_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 control_msgs_generate_messages_cpp
-.PHONY : control_msgs_generate_messages_cpp
-
-# fast build rule for target.
-control_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f youbot_ros_samples/youbot_ros_simple_trajectory/CMakeFiles/control_msgs_generate_messages_cpp.dir/build.make youbot_ros_samples/youbot_ros_simple_trajectory/CMakeFiles/control_msgs_generate_messages_cpp.dir/build
-.PHONY : control_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named control_msgs_generate_messages_lisp
-
-# Build rule for target.
-control_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 control_msgs_generate_messages_lisp
-.PHONY : control_msgs_generate_messages_lisp
-
-# fast build rule for target.
-control_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f youbot_ros_samples/youbot_ros_simple_trajectory/CMakeFiles/control_msgs_generate_messages_lisp.dir/build.make youbot_ros_samples/youbot_ros_simple_trajectory/CMakeFiles/control_msgs_generate_messages_lisp.dir/build
-.PHONY : control_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named control_msgs_generate_messages_py
-
-# Build rule for target.
-control_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 control_msgs_generate_messages_py
-.PHONY : control_msgs_generate_messages_py
-
-# fast build rule for target.
-control_msgs_generate_messages_py/fast:
-	$(MAKE) -f youbot_ros_samples/youbot_ros_simple_trajectory/CMakeFiles/control_msgs_generate_messages_py.dir/build.make youbot_ros_samples/youbot_ros_simple_trajectory/CMakeFiles/control_msgs_generate_messages_py.dir/build
-.PHONY : control_msgs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named trajectory_msgs_generate_messages_cpp
-
-# Build rule for target.
-trajectory_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_cpp
-.PHONY : trajectory_msgs_generate_messages_cpp
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f youbot_ros_samples/youbot_ros_simple_trajectory/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build.make youbot_ros_samples/youbot_ros_simple_trajectory/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build
-.PHONY : trajectory_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named trajectory_msgs_generate_messages_lisp
-
-# Build rule for target.
-trajectory_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_lisp
-.PHONY : trajectory_msgs_generate_messages_lisp
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f youbot_ros_samples/youbot_ros_simple_trajectory/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build.make youbot_ros_samples/youbot_ros_simple_trajectory/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build
-.PHONY : trajectory_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named trajectory_msgs_generate_messages_py
-
-# Build rule for target.
-trajectory_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_py
-.PHONY : trajectory_msgs_generate_messages_py
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_py/fast:
-	$(MAKE) -f youbot_ros_samples/youbot_ros_simple_trajectory/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make youbot_ros_samples/youbot_ros_simple_trajectory/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
-.PHONY : trajectory_msgs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named youbot_ros_simple_trajectory
-
-# Build rule for target.
-youbot_ros_simple_trajectory: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 youbot_ros_simple_trajectory
-.PHONY : youbot_ros_simple_trajectory
-
-# fast build rule for target.
-youbot_ros_simple_trajectory/fast:
-	$(MAKE) -f youbot_ros_samples/youbot_ros_simple_trajectory/CMakeFiles/youbot_ros_simple_trajectory.dir/build.make youbot_ros_samples/youbot_ros_simple_trajectory/CMakeFiles/youbot_ros_simple_trajectory.dir/build
-.PHONY : youbot_ros_simple_trajectory/fast
 
 # Help Target
 help:
@@ -2403,19 +2247,7 @@ help:
 	@echo "... tf_generate_messages_lisp"
 	@echo "... tf_generate_messages_py"
 	@echo "... v_repExtRos"
-	@echo "... brics_actuator_generate_messages_cpp"
-	@echo "... brics_actuator_generate_messages_lisp"
-	@echo "... brics_actuator_generate_messages_py"
-	@echo "... v_repExtyouBot"
 	@echo "... lowpass_filter"
-	@echo "... youbot_ros_hello_world"
-	@echo "... control_msgs_generate_messages_cpp"
-	@echo "... control_msgs_generate_messages_lisp"
-	@echo "... control_msgs_generate_messages_py"
-	@echo "... trajectory_msgs_generate_messages_cpp"
-	@echo "... trajectory_msgs_generate_messages_lisp"
-	@echo "... trajectory_msgs_generate_messages_py"
-	@echo "... youbot_ros_simple_trajectory"
 .PHONY : help
 
 

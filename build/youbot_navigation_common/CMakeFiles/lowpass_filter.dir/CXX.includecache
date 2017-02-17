@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/alex/RosProgramming/kuka/src/youbot_navigation_common/src/lowpass_filter.cpp
+/home/teacher/PycharmProjects/kukaRos/src/youbot_navigation_common/src/lowpass_filter.cpp
 ros/ros.h
-/home/alex/RosProgramming/kuka/src/youbot_navigation_common/src/ros/ros.h
+/home/teacher/PycharmProjects/kukaRos/src/youbot_navigation_common/src/ros/ros.h
 geometry_msgs/Twist.h
-/home/alex/RosProgramming/kuka/src/youbot_navigation_common/src/geometry_msgs/Twist.h
+/home/teacher/PycharmProjects/kukaRos/src/youbot_navigation_common/src/geometry_msgs/Twist.h
 

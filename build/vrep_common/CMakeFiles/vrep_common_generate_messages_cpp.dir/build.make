@@ -35,1115 +35,1115 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alex/RosProgramming/kuka/src
+CMAKE_SOURCE_DIR = /home/teacher/PycharmProjects/kukaRos/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alex/RosProgramming/kuka/build
+CMAKE_BINARY_DIR = /home/teacher/PycharmProjects/kukaRos/build
 
 # Utility rule file for vrep_common_generate_messages_cpp.
 
 # Include the progress variables for this target.
 include vrep_common/CMakeFiles/vrep_common_generate_messages_cpp.dir/progress.make
 
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/JointSetStateData.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/VisionSensorDepthBuff.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/ScriptFunctionCallData.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/ProximitySensorData.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/VisionSensorData.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/ForceSensorData.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/ObjectGroupData.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/VrepInfo.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetBooleanParameter.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetUISlider.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetFloatingParameter.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetLastErrors.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetJointPosition.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosCreateDummy.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSynchronousTrigger.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosCloseScene.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetJointState.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetVisionSensorDepthBuffer.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetUIEventButton.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosDisplayDialog.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetStringSignal.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosDisableSubscriber.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectSelection.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosStopSimulation.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetUIButtonProperty.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosLoadScene.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectFloatParameter.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectFloatParameter.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosDisablePublisher.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetIntegerSignal.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetJointMatrix.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosReadCollision.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosCallScriptFunction.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosReadProximitySensor.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosEndDialog.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetStringParameter.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetVisionSensorImage.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetFloatSignal.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosLoadModel.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetDistanceHandle.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectChild.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjects.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosRemoveObject.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetVisionSensorImage.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosPauseSimulation.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectPose.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetModelProperty.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosAuxiliaryConsolePrint.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosEnablePublisher.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectParent.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosLoadUI.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetCollisionHandle.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetBooleanParameter.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectIntParameter.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetModelProperty.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetUIButtonLabel.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetSphericalJointMatrix.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosAuxiliaryConsoleOpen.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectSelection.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectQuaternion.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetAndClearStringSignal.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectGroupData.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetInfo.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosReadVisionSensor.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetArrayParameter.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetJointTargetPosition.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetIntegerParameter.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetIntegerSignal.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetArrayParameter.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosBreakForceSensor.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetFloatSignal.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetIntegerParameter.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosEnableSubscriber.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosReadForceSensor.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetStringSignal.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosCopyPasteObjects.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetUIHandle.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetUIButtonProperty.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectPosition.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosClearIntegerSignal.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosAddStatusbarMessage.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetDialogResult.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetFloatingParameter.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectPose.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosAppendStringSignal.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetJointTargetVelocity.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetJointForce.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosTransferFile.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosClearFloatSignal.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetUISlider.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosClearStringSignal.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosRemoveModel.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectIntParameter.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetJointState.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectHandle.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetCollectionHandle.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosReadDistance.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSynchronous.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectParent.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosAuxiliaryConsoleShow.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosEraseFile.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetDialogInput.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosRemoveUI.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosAuxiliaryConsoleClose.h
-vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosStartSimulation.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/ProximitySensorData.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/ScriptFunctionCallData.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/JointSetStateData.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/ForceSensorData.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/VrepInfo.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/VisionSensorData.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/ObjectGroupData.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/VisionSensorDepthBuff.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetSphericalJointMatrix.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectSelection.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosRemoveUI.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetCollectionHandle.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectFloatParameter.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosAuxiliaryConsoleOpen.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosClearIntegerSignal.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectSelection.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosDisableSubscriber.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetJointTargetPosition.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetStringParameter.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosEraseFile.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjects.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectIntParameter.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosEnableSubscriber.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetFloatingParameter.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetAndClearStringSignal.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosEnablePublisher.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosReadVisionSensor.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetModelProperty.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetArrayParameter.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectHandle.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosReadProximitySensor.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetArrayParameter.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosStopSimulation.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosDisablePublisher.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetVisionSensorDepthBuffer.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetUISlider.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosAuxiliaryConsoleClose.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetDistanceHandle.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetUIButtonProperty.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetJointTargetVelocity.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosClearFloatSignal.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosLoadModel.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosReadCollision.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosAppendStringSignal.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosBreakForceSensor.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosStartSimulation.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetStringSignal.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectParent.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetFloatSignal.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetFloatSignal.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectPose.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetStringSignal.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetIntegerSignal.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosCreateDummy.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetBooleanParameter.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosTransferFile.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosReadForceSensor.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectIntParameter.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosLoadScene.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectParent.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectPosition.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosAuxiliaryConsolePrint.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetBooleanParameter.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosPauseSimulation.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetUIEventButton.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosRemoveObject.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetInfo.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectFloatParameter.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetUIButtonLabel.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetUISlider.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetJointMatrix.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetFloatingParameter.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetVisionSensorImage.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectGroupData.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetIntegerParameter.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSynchronousTrigger.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetJointState.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetVisionSensorImage.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetUIHandle.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosCopyPasteObjects.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosEndDialog.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetJointPosition.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetDialogResult.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetIntegerSignal.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetCollisionHandle.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetDialogInput.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosRemoveModel.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetJointState.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosDisplayDialog.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetUIButtonProperty.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSynchronous.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosLoadUI.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetJointForce.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectPose.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosClearStringSignal.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectChild.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosReadDistance.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosCallScriptFunction.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosCloseScene.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetLastErrors.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosAddStatusbarMessage.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectQuaternion.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosAuxiliaryConsoleShow.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetModelProperty.h
+vrep_common/CMakeFiles/vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetIntegerParameter.h
 
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/JointSetStateData.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/JointSetStateData.h: /home/alex/RosProgramming/kuka/src/vrep_common/msg/JointSetStateData.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/JointSetStateData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Float32MultiArray.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/JointSetStateData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayLayout.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/JointSetStateData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/UInt8MultiArray.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/JointSetStateData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayDimension.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/JointSetStateData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Int32MultiArray.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/JointSetStateData.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/JointSetStateData.msg"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/msg/JointSetStateData.msg -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/VisionSensorDepthBuff.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/VisionSensorDepthBuff.h: /home/alex/RosProgramming/kuka/src/vrep_common/msg/VisionSensorDepthBuff.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/VisionSensorDepthBuff.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Float32MultiArray.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/VisionSensorDepthBuff.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayLayout.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/VisionSensorDepthBuff.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayDimension.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/VisionSensorDepthBuff.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/VisionSensorDepthBuff.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/VisionSensorDepthBuff.msg"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/msg/VisionSensorDepthBuff.msg -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/ScriptFunctionCallData.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/ScriptFunctionCallData.h: /home/alex/RosProgramming/kuka/src/vrep_common/msg/ScriptFunctionCallData.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/ScriptFunctionCallData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Float32MultiArray.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/ScriptFunctionCallData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayLayout.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/ScriptFunctionCallData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/String.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/ScriptFunctionCallData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayDimension.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/ScriptFunctionCallData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Int32MultiArray.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/ScriptFunctionCallData.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/ScriptFunctionCallData.msg"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/msg/ScriptFunctionCallData.msg -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/ProximitySensorData.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/ProximitySensorData.h: /home/alex/RosProgramming/kuka/src/vrep_common/msg/ProximitySensorData.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/ProximitySensorData.h: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point32.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/ProximitySensorData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/ProximitySensorData.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_4)
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/ProximitySensorData.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/ProximitySensorData.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ProximitySensorData.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/ProximitySensorData.h: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point32.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/ProximitySensorData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/ProximitySensorData.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/ProximitySensorData.msg"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/msg/ProximitySensorData.msg -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ProximitySensorData.msg -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
 
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/VisionSensorData.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/VisionSensorData.h: /home/alex/RosProgramming/kuka/src/vrep_common/msg/VisionSensorData.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/VisionSensorData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Float32MultiArray.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/VisionSensorData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayLayout.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/VisionSensorData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Int32MultiArray.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/VisionSensorData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayDimension.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/VisionSensorData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/VisionSensorData.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_5)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/VisionSensorData.msg"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/msg/VisionSensorData.msg -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/ScriptFunctionCallData.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/ScriptFunctionCallData.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ScriptFunctionCallData.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/ScriptFunctionCallData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Float32MultiArray.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/ScriptFunctionCallData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayLayout.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/ScriptFunctionCallData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/String.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/ScriptFunctionCallData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayDimension.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/ScriptFunctionCallData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Int32MultiArray.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/ScriptFunctionCallData.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/ScriptFunctionCallData.msg"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ScriptFunctionCallData.msg -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
 
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/ForceSensorData.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/ForceSensorData.h: /home/alex/RosProgramming/kuka/src/vrep_common/msg/ForceSensorData.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/ForceSensorData.h: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Vector3.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/ForceSensorData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/ForceSensorData.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_6)
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/JointSetStateData.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/JointSetStateData.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/JointSetStateData.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/JointSetStateData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Float32MultiArray.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/JointSetStateData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayLayout.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/JointSetStateData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/UInt8MultiArray.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/JointSetStateData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayDimension.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/JointSetStateData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Int32MultiArray.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/JointSetStateData.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/JointSetStateData.msg"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/JointSetStateData.msg -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/ForceSensorData.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/ForceSensorData.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ForceSensorData.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/ForceSensorData.h: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Vector3.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/ForceSensorData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/ForceSensorData.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/ForceSensorData.msg"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/msg/ForceSensorData.msg -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ForceSensorData.msg -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
 
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/ObjectGroupData.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/ObjectGroupData.h: /home/alex/RosProgramming/kuka/src/vrep_common/msg/ObjectGroupData.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/ObjectGroupData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Float32MultiArray.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/ObjectGroupData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayLayout.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/ObjectGroupData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/String.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/ObjectGroupData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayDimension.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/ObjectGroupData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Int32MultiArray.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/ObjectGroupData.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_7)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/ObjectGroupData.msg"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/msg/ObjectGroupData.msg -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/VrepInfo.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/VrepInfo.h: /home/alex/RosProgramming/kuka/src/vrep_common/msg/VrepInfo.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/VrepInfo.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Float32.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/VrepInfo.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/VrepInfo.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/VrepInfo.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_8)
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/VrepInfo.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/VrepInfo.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/VrepInfo.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/VrepInfo.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Float32.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/VrepInfo.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/VrepInfo.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/VrepInfo.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/VrepInfo.msg"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/msg/VrepInfo.msg -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/VrepInfo.msg -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
 
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetBooleanParameter.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetBooleanParameter.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetBooleanParameter.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetBooleanParameter.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetBooleanParameter.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_9)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetBooleanParameter.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetBooleanParameter.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/VisionSensorData.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/VisionSensorData.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/VisionSensorData.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/VisionSensorData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Float32MultiArray.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/VisionSensorData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayLayout.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/VisionSensorData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Int32MultiArray.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/VisionSensorData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayDimension.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/VisionSensorData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/VisionSensorData.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/VisionSensorData.msg"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/VisionSensorData.msg -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
 
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetUISlider.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetUISlider.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUISlider.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetUISlider.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetUISlider.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_10)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetUISlider.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUISlider.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/ObjectGroupData.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/ObjectGroupData.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ObjectGroupData.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/ObjectGroupData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Float32MultiArray.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/ObjectGroupData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayLayout.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/ObjectGroupData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/String.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/ObjectGroupData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayDimension.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/ObjectGroupData.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Int32MultiArray.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/ObjectGroupData.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/ObjectGroupData.msg"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ObjectGroupData.msg -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
 
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetFloatingParameter.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetFloatingParameter.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetFloatingParameter.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetFloatingParameter.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetFloatingParameter.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_11)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetFloatingParameter.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetFloatingParameter.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/VisionSensorDepthBuff.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/VisionSensorDepthBuff.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/VisionSensorDepthBuff.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/VisionSensorDepthBuff.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Float32MultiArray.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/VisionSensorDepthBuff.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayLayout.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/VisionSensorDepthBuff.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayDimension.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/VisionSensorDepthBuff.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/VisionSensorDepthBuff.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/VisionSensorDepthBuff.msg"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/VisionSensorDepthBuff.msg -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
 
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetLastErrors.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetLastErrors.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetLastErrors.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetLastErrors.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetLastErrors.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_12)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetLastErrors.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetLastErrors.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetJointPosition.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetJointPosition.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointPosition.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetJointPosition.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetJointPosition.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_13)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetJointPosition.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointPosition.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosCreateDummy.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosCreateDummy.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCreateDummy.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosCreateDummy.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosCreateDummy.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_14)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosCreateDummy.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCreateDummy.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSynchronousTrigger.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSynchronousTrigger.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSynchronousTrigger.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSynchronousTrigger.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSynchronousTrigger.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_15)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSynchronousTrigger.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSynchronousTrigger.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosCloseScene.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosCloseScene.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCloseScene.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosCloseScene.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosCloseScene.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_16)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosCloseScene.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCloseScene.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetJointState.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetJointState.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointState.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetJointState.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetJointState.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_17)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetJointState.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointState.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetVisionSensorDepthBuffer.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetVisionSensorDepthBuffer.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetVisionSensorDepthBuffer.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetVisionSensorDepthBuffer.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetVisionSensorDepthBuffer.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_18)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetVisionSensorDepthBuffer.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetVisionSensorDepthBuffer.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetUIEventButton.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetUIEventButton.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUIEventButton.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetUIEventButton.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetUIEventButton.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_19)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetUIEventButton.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUIEventButton.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosDisplayDialog.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosDisplayDialog.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosDisplayDialog.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosDisplayDialog.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosDisplayDialog.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_20)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosDisplayDialog.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosDisplayDialog.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetStringSignal.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetStringSignal.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetStringSignal.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetStringSignal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetStringSignal.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_21)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetStringSignal.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetStringSignal.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosDisableSubscriber.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosDisableSubscriber.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosDisableSubscriber.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosDisableSubscriber.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosDisableSubscriber.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_22)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosDisableSubscriber.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosDisableSubscriber.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectSelection.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectSelection.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectSelection.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectSelection.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectSelection.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_23)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetObjectSelection.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectSelection.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosStopSimulation.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosStopSimulation.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosStopSimulation.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosStopSimulation.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosStopSimulation.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_24)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosStopSimulation.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosStopSimulation.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetUIButtonProperty.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetUIButtonProperty.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetUIButtonProperty.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetUIButtonProperty.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetUIButtonProperty.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_25)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetUIButtonProperty.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetUIButtonProperty.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosLoadScene.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosLoadScene.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosLoadScene.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosLoadScene.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosLoadScene.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_26)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosLoadScene.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosLoadScene.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectFloatParameter.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectFloatParameter.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectFloatParameter.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectFloatParameter.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectFloatParameter.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_27)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetObjectFloatParameter.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectFloatParameter.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectFloatParameter.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectFloatParameter.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectFloatParameter.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectFloatParameter.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectFloatParameter.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_28)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetObjectFloatParameter.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectFloatParameter.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosDisablePublisher.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosDisablePublisher.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosDisablePublisher.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosDisablePublisher.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosDisablePublisher.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_29)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosDisablePublisher.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosDisablePublisher.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetIntegerSignal.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetIntegerSignal.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetIntegerSignal.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetIntegerSignal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetIntegerSignal.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_30)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetIntegerSignal.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetIntegerSignal.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetJointMatrix.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetJointMatrix.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetJointMatrix.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetJointMatrix.h: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetJointMatrix.h: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Transform.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetJointMatrix.h: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/TransformStamped.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetJointMatrix.h: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Vector3.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetJointMatrix.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetJointMatrix.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetJointMatrix.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_31)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetJointMatrix.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetJointMatrix.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosReadCollision.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosReadCollision.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadCollision.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosReadCollision.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosReadCollision.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_32)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosReadCollision.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadCollision.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosCallScriptFunction.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosCallScriptFunction.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCallScriptFunction.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosCallScriptFunction.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosCallScriptFunction.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_33)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosCallScriptFunction.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCallScriptFunction.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosReadProximitySensor.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosReadProximitySensor.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadProximitySensor.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosReadProximitySensor.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosReadProximitySensor.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_34)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosReadProximitySensor.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadProximitySensor.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosEndDialog.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosEndDialog.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEndDialog.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosEndDialog.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosEndDialog.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_35)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosEndDialog.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEndDialog.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetStringParameter.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetStringParameter.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetStringParameter.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetStringParameter.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetStringParameter.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_36)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetStringParameter.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetStringParameter.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetVisionSensorImage.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetVisionSensorImage.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetVisionSensorImage.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetVisionSensorImage.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetVisionSensorImage.h: /opt/ros/indigo/share/sensor_msgs/cmake/../msg/Image.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetVisionSensorImage.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetVisionSensorImage.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_37)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetVisionSensorImage.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetVisionSensorImage.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetFloatSignal.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetFloatSignal.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetFloatSignal.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetFloatSignal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetFloatSignal.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_38)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetFloatSignal.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetFloatSignal.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosLoadModel.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosLoadModel.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosLoadModel.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosLoadModel.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosLoadModel.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_39)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosLoadModel.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosLoadModel.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetDistanceHandle.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetDistanceHandle.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetDistanceHandle.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetDistanceHandle.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetDistanceHandle.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_40)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetDistanceHandle.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetDistanceHandle.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectChild.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectChild.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectChild.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectChild.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectChild.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_41)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetObjectChild.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectChild.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjects.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjects.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjects.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjects.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjects.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_42)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetObjects.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjects.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosRemoveObject.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosRemoveObject.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosRemoveObject.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosRemoveObject.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosRemoveObject.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_43)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosRemoveObject.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosRemoveObject.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetVisionSensorImage.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetVisionSensorImage.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetVisionSensorImage.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetVisionSensorImage.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetVisionSensorImage.h: /opt/ros/indigo/share/sensor_msgs/cmake/../msg/Image.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetVisionSensorImage.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetVisionSensorImage.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_44)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetVisionSensorImage.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetVisionSensorImage.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosPauseSimulation.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosPauseSimulation.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosPauseSimulation.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosPauseSimulation.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosPauseSimulation.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_45)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosPauseSimulation.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosPauseSimulation.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectPose.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectPose.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectPose.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectPose.h: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectPose.h: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/PoseStamped.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectPose.h: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectPose.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectPose.h: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Pose.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectPose.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectPose.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_46)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetObjectPose.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectPose.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetModelProperty.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetModelProperty.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetModelProperty.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetModelProperty.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetModelProperty.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_47)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetModelProperty.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetModelProperty.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosAuxiliaryConsolePrint.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosAuxiliaryConsolePrint.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsolePrint.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosAuxiliaryConsolePrint.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosAuxiliaryConsolePrint.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_48)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosAuxiliaryConsolePrint.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsolePrint.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosEnablePublisher.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosEnablePublisher.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEnablePublisher.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosEnablePublisher.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosEnablePublisher.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_49)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosEnablePublisher.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEnablePublisher.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectParent.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectParent.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectParent.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectParent.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectParent.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_50)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetObjectParent.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectParent.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosLoadUI.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosLoadUI.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosLoadUI.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosLoadUI.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosLoadUI.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_51)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosLoadUI.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosLoadUI.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetCollisionHandle.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetCollisionHandle.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetCollisionHandle.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetCollisionHandle.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetCollisionHandle.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_52)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetCollisionHandle.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetCollisionHandle.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetBooleanParameter.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetBooleanParameter.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetBooleanParameter.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetBooleanParameter.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetBooleanParameter.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_53)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetBooleanParameter.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetBooleanParameter.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectIntParameter.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectIntParameter.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectIntParameter.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectIntParameter.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectIntParameter.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_54)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetObjectIntParameter.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectIntParameter.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetModelProperty.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetModelProperty.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetModelProperty.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetModelProperty.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetModelProperty.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_55)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetModelProperty.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetModelProperty.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetUIButtonLabel.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetUIButtonLabel.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetUIButtonLabel.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetUIButtonLabel.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetUIButtonLabel.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_56)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetUIButtonLabel.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetUIButtonLabel.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetSphericalJointMatrix.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetSphericalJointMatrix.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetSphericalJointMatrix.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetSphericalJointMatrix.h: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetSphericalJointMatrix.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetSphericalJointMatrix.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_57)
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetSphericalJointMatrix.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetSphericalJointMatrix.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetSphericalJointMatrix.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetSphericalJointMatrix.h: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetSphericalJointMatrix.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetSphericalJointMatrix.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetSphericalJointMatrix.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetSphericalJointMatrix.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetSphericalJointMatrix.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
 
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosAuxiliaryConsoleOpen.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosAuxiliaryConsoleOpen.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsoleOpen.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosAuxiliaryConsoleOpen.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosAuxiliaryConsoleOpen.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_58)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosAuxiliaryConsoleOpen.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsoleOpen.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectSelection.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectSelection.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectSelection.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectSelection.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectSelection.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetObjectSelection.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectSelection.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
 
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectSelection.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectSelection.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectSelection.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectSelection.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectSelection.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_59)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetObjectSelection.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectSelection.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectQuaternion.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectQuaternion.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectQuaternion.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectQuaternion.h: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectQuaternion.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectQuaternion.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_60)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetObjectQuaternion.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectQuaternion.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetAndClearStringSignal.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetAndClearStringSignal.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetAndClearStringSignal.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetAndClearStringSignal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetAndClearStringSignal.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_61)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetAndClearStringSignal.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetAndClearStringSignal.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectGroupData.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectGroupData.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectGroupData.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectGroupData.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectGroupData.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_62)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetObjectGroupData.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectGroupData.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetInfo.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetInfo.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetInfo.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetInfo.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetInfo.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetInfo.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_63)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetInfo.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetInfo.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosReadVisionSensor.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosReadVisionSensor.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadVisionSensor.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosReadVisionSensor.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosReadVisionSensor.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_64)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosReadVisionSensor.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadVisionSensor.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetArrayParameter.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetArrayParameter.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetArrayParameter.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetArrayParameter.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetArrayParameter.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_65)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetArrayParameter.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetArrayParameter.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetJointTargetPosition.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetJointTargetPosition.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointTargetPosition.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetJointTargetPosition.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetJointTargetPosition.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_66)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetJointTargetPosition.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointTargetPosition.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetIntegerParameter.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetIntegerParameter.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetIntegerParameter.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetIntegerParameter.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetIntegerParameter.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_67)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetIntegerParameter.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetIntegerParameter.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetIntegerSignal.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetIntegerSignal.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetIntegerSignal.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetIntegerSignal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetIntegerSignal.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_68)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetIntegerSignal.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetIntegerSignal.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetArrayParameter.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetArrayParameter.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetArrayParameter.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetArrayParameter.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetArrayParameter.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_69)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetArrayParameter.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetArrayParameter.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosBreakForceSensor.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosBreakForceSensor.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosBreakForceSensor.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosBreakForceSensor.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosBreakForceSensor.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_70)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosBreakForceSensor.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosBreakForceSensor.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetFloatSignal.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetFloatSignal.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetFloatSignal.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetFloatSignal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetFloatSignal.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_71)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetFloatSignal.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetFloatSignal.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetIntegerParameter.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetIntegerParameter.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetIntegerParameter.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetIntegerParameter.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetIntegerParameter.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_72)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetIntegerParameter.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetIntegerParameter.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosEnableSubscriber.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosEnableSubscriber.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEnableSubscriber.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosEnableSubscriber.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosEnableSubscriber.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_73)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosEnableSubscriber.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEnableSubscriber.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosReadForceSensor.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosReadForceSensor.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadForceSensor.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosReadForceSensor.h: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Vector3.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosReadForceSensor.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosReadForceSensor.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_74)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosReadForceSensor.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadForceSensor.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetStringSignal.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetStringSignal.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetStringSignal.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetStringSignal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetStringSignal.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_75)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetStringSignal.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetStringSignal.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosCopyPasteObjects.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosCopyPasteObjects.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCopyPasteObjects.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosCopyPasteObjects.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosCopyPasteObjects.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_76)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosCopyPasteObjects.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCopyPasteObjects.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetUIHandle.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetUIHandle.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUIHandle.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetUIHandle.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetUIHandle.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_77)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetUIHandle.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUIHandle.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetUIButtonProperty.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetUIButtonProperty.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUIButtonProperty.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetUIButtonProperty.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetUIButtonProperty.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_78)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetUIButtonProperty.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUIButtonProperty.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectPosition.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectPosition.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectPosition.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectPosition.h: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectPosition.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectPosition.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_79)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetObjectPosition.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectPosition.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosClearIntegerSignal.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosClearIntegerSignal.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosClearIntegerSignal.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosClearIntegerSignal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosClearIntegerSignal.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_80)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosClearIntegerSignal.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosClearIntegerSignal.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosAddStatusbarMessage.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosAddStatusbarMessage.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAddStatusbarMessage.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosAddStatusbarMessage.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosAddStatusbarMessage.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_81)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosAddStatusbarMessage.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAddStatusbarMessage.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetDialogResult.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetDialogResult.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetDialogResult.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetDialogResult.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetDialogResult.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_82)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetDialogResult.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetDialogResult.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetFloatingParameter.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetFloatingParameter.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetFloatingParameter.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetFloatingParameter.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetFloatingParameter.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_83)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetFloatingParameter.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetFloatingParameter.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectPose.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectPose.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectPose.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectPose.h: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectPose.h: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectPose.h: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Pose.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectPose.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectPose.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_84)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetObjectPose.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectPose.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosAppendStringSignal.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosAppendStringSignal.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAppendStringSignal.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosAppendStringSignal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosAppendStringSignal.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_85)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosAppendStringSignal.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAppendStringSignal.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetJointTargetVelocity.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetJointTargetVelocity.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointTargetVelocity.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetJointTargetVelocity.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetJointTargetVelocity.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_86)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetJointTargetVelocity.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointTargetVelocity.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetJointForce.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetJointForce.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointForce.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetJointForce.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetJointForce.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_87)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetJointForce.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointForce.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosTransferFile.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosTransferFile.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosTransferFile.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosTransferFile.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosTransferFile.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_88)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosTransferFile.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosTransferFile.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosClearFloatSignal.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosClearFloatSignal.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosClearFloatSignal.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosClearFloatSignal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosClearFloatSignal.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_89)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosClearFloatSignal.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosClearFloatSignal.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetUISlider.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetUISlider.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetUISlider.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetUISlider.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetUISlider.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_90)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetUISlider.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetUISlider.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosClearStringSignal.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosClearStringSignal.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosClearStringSignal.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosClearStringSignal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosClearStringSignal.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_91)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosClearStringSignal.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosClearStringSignal.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosRemoveModel.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosRemoveModel.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosRemoveModel.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosRemoveModel.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosRemoveModel.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_92)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosRemoveModel.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosRemoveModel.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectIntParameter.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectIntParameter.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectIntParameter.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectIntParameter.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectIntParameter.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_93)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetObjectIntParameter.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectIntParameter.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetJointState.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetJointState.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetJointState.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetJointState.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetJointState.h: /opt/ros/indigo/share/sensor_msgs/cmake/../msg/JointState.msg
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetJointState.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetJointState.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_94)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetJointState.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetJointState.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectHandle.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectHandle.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectHandle.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectHandle.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectHandle.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_95)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetObjectHandle.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectHandle.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetCollectionHandle.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetCollectionHandle.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetCollectionHandle.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetCollectionHandle.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetCollectionHandle.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_96)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetCollectionHandle.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetCollectionHandle.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosReadDistance.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosReadDistance.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadDistance.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosReadDistance.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosReadDistance.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_97)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosReadDistance.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadDistance.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSynchronous.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSynchronous.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSynchronous.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSynchronous.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSynchronous.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_98)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSynchronous.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSynchronous.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectParent.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectParent.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectParent.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectParent.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectParent.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_99)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetObjectParent.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectParent.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosAuxiliaryConsoleShow.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosAuxiliaryConsoleShow.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsoleShow.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosAuxiliaryConsoleShow.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosAuxiliaryConsoleShow.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_100)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosAuxiliaryConsoleShow.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsoleShow.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosEraseFile.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosEraseFile.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEraseFile.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosEraseFile.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosEraseFile.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_101)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosEraseFile.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEraseFile.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetDialogInput.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetDialogInput.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetDialogInput.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetDialogInput.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetDialogInput.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_102)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetDialogInput.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetDialogInput.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosRemoveUI.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosRemoveUI.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosRemoveUI.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosRemoveUI.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosRemoveUI.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_103)
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosRemoveUI.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosRemoveUI.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosRemoveUI.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosRemoveUI.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosRemoveUI.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosRemoveUI.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosRemoveUI.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosRemoveUI.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
 
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosAuxiliaryConsoleClose.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosAuxiliaryConsoleClose.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsoleClose.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosAuxiliaryConsoleClose.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosAuxiliaryConsoleClose.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_104)
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetCollectionHandle.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetCollectionHandle.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetCollectionHandle.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetCollectionHandle.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetCollectionHandle.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetCollectionHandle.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetCollectionHandle.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectFloatParameter.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectFloatParameter.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectFloatParameter.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectFloatParameter.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectFloatParameter.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetObjectFloatParameter.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectFloatParameter.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosAuxiliaryConsoleOpen.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosAuxiliaryConsoleOpen.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsoleOpen.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosAuxiliaryConsoleOpen.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosAuxiliaryConsoleOpen.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_14)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosAuxiliaryConsoleOpen.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsoleOpen.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosClearIntegerSignal.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosClearIntegerSignal.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosClearIntegerSignal.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosClearIntegerSignal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosClearIntegerSignal.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_15)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosClearIntegerSignal.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosClearIntegerSignal.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectSelection.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectSelection.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectSelection.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectSelection.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectSelection.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_16)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetObjectSelection.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectSelection.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosDisableSubscriber.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosDisableSubscriber.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosDisableSubscriber.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosDisableSubscriber.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosDisableSubscriber.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_17)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosDisableSubscriber.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosDisableSubscriber.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetJointTargetPosition.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetJointTargetPosition.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointTargetPosition.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetJointTargetPosition.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetJointTargetPosition.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_18)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetJointTargetPosition.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointTargetPosition.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetStringParameter.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetStringParameter.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetStringParameter.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetStringParameter.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetStringParameter.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_19)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetStringParameter.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetStringParameter.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosEraseFile.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosEraseFile.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEraseFile.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosEraseFile.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosEraseFile.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_20)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosEraseFile.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEraseFile.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjects.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjects.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjects.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjects.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjects.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_21)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetObjects.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjects.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectIntParameter.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectIntParameter.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectIntParameter.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectIntParameter.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectIntParameter.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_22)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetObjectIntParameter.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectIntParameter.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosEnableSubscriber.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosEnableSubscriber.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEnableSubscriber.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosEnableSubscriber.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosEnableSubscriber.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_23)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosEnableSubscriber.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEnableSubscriber.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetFloatingParameter.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetFloatingParameter.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetFloatingParameter.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetFloatingParameter.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetFloatingParameter.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_24)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetFloatingParameter.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetFloatingParameter.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetAndClearStringSignal.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetAndClearStringSignal.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetAndClearStringSignal.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetAndClearStringSignal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetAndClearStringSignal.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_25)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetAndClearStringSignal.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetAndClearStringSignal.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosEnablePublisher.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosEnablePublisher.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEnablePublisher.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosEnablePublisher.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosEnablePublisher.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_26)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosEnablePublisher.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEnablePublisher.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosReadVisionSensor.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosReadVisionSensor.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadVisionSensor.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosReadVisionSensor.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosReadVisionSensor.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_27)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosReadVisionSensor.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadVisionSensor.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetModelProperty.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetModelProperty.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetModelProperty.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetModelProperty.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetModelProperty.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_28)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetModelProperty.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetModelProperty.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetArrayParameter.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetArrayParameter.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetArrayParameter.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetArrayParameter.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetArrayParameter.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_29)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetArrayParameter.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetArrayParameter.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectHandle.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectHandle.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectHandle.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectHandle.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectHandle.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_30)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetObjectHandle.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectHandle.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosReadProximitySensor.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosReadProximitySensor.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadProximitySensor.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosReadProximitySensor.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosReadProximitySensor.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_31)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosReadProximitySensor.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadProximitySensor.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetArrayParameter.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetArrayParameter.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetArrayParameter.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetArrayParameter.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetArrayParameter.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_32)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetArrayParameter.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetArrayParameter.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosStopSimulation.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosStopSimulation.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosStopSimulation.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosStopSimulation.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosStopSimulation.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_33)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosStopSimulation.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosStopSimulation.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosDisablePublisher.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosDisablePublisher.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosDisablePublisher.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosDisablePublisher.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosDisablePublisher.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_34)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosDisablePublisher.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosDisablePublisher.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetVisionSensorDepthBuffer.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetVisionSensorDepthBuffer.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetVisionSensorDepthBuffer.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetVisionSensorDepthBuffer.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetVisionSensorDepthBuffer.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_35)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetVisionSensorDepthBuffer.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetVisionSensorDepthBuffer.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetUISlider.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetUISlider.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUISlider.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetUISlider.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetUISlider.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_36)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetUISlider.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUISlider.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosAuxiliaryConsoleClose.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosAuxiliaryConsoleClose.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsoleClose.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosAuxiliaryConsoleClose.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosAuxiliaryConsoleClose.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_37)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosAuxiliaryConsoleClose.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsoleClose.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsoleClose.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
 
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosStartSimulation.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosStartSimulation.h: /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosStartSimulation.srv
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosStartSimulation.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosStartSimulation.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/RosProgramming/kuka/build/CMakeFiles $(CMAKE_PROGRESS_105)
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetDistanceHandle.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetDistanceHandle.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetDistanceHandle.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetDistanceHandle.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetDistanceHandle.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_38)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetDistanceHandle.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetDistanceHandle.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetUIButtonProperty.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetUIButtonProperty.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetUIButtonProperty.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetUIButtonProperty.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetUIButtonProperty.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_39)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetUIButtonProperty.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetUIButtonProperty.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetJointTargetVelocity.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetJointTargetVelocity.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointTargetVelocity.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetJointTargetVelocity.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetJointTargetVelocity.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_40)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetJointTargetVelocity.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointTargetVelocity.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosClearFloatSignal.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosClearFloatSignal.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosClearFloatSignal.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosClearFloatSignal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosClearFloatSignal.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_41)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosClearFloatSignal.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosClearFloatSignal.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosLoadModel.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosLoadModel.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosLoadModel.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosLoadModel.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosLoadModel.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_42)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosLoadModel.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosLoadModel.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosReadCollision.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosReadCollision.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadCollision.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosReadCollision.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosReadCollision.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_43)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosReadCollision.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadCollision.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosAppendStringSignal.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosAppendStringSignal.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAppendStringSignal.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosAppendStringSignal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosAppendStringSignal.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_44)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosAppendStringSignal.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAppendStringSignal.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosBreakForceSensor.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosBreakForceSensor.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosBreakForceSensor.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosBreakForceSensor.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosBreakForceSensor.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_45)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosBreakForceSensor.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosBreakForceSensor.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosStartSimulation.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosStartSimulation.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosStartSimulation.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosStartSimulation.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosStartSimulation.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_46)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosStartSimulation.srv"
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosStartSimulation.srv -Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/alex/RosProgramming/kuka/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosStartSimulation.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetStringSignal.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetStringSignal.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetStringSignal.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetStringSignal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetStringSignal.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_47)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetStringSignal.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetStringSignal.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectParent.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectParent.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectParent.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectParent.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectParent.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_48)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetObjectParent.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectParent.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetFloatSignal.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetFloatSignal.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetFloatSignal.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetFloatSignal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetFloatSignal.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_49)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetFloatSignal.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetFloatSignal.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetFloatSignal.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetFloatSignal.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetFloatSignal.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetFloatSignal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetFloatSignal.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_50)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetFloatSignal.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetFloatSignal.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectPose.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectPose.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectPose.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectPose.h: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectPose.h: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectPose.h: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Pose.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectPose.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectPose.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_51)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetObjectPose.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectPose.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetStringSignal.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetStringSignal.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetStringSignal.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetStringSignal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetStringSignal.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_52)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetStringSignal.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetStringSignal.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetIntegerSignal.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetIntegerSignal.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetIntegerSignal.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetIntegerSignal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetIntegerSignal.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_53)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetIntegerSignal.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetIntegerSignal.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosCreateDummy.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosCreateDummy.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCreateDummy.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosCreateDummy.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosCreateDummy.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_54)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosCreateDummy.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCreateDummy.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetBooleanParameter.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetBooleanParameter.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetBooleanParameter.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetBooleanParameter.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetBooleanParameter.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_55)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetBooleanParameter.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetBooleanParameter.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosTransferFile.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosTransferFile.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosTransferFile.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosTransferFile.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosTransferFile.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_56)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosTransferFile.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosTransferFile.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosReadForceSensor.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosReadForceSensor.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadForceSensor.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosReadForceSensor.h: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Vector3.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosReadForceSensor.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosReadForceSensor.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_57)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosReadForceSensor.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadForceSensor.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectIntParameter.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectIntParameter.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectIntParameter.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectIntParameter.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectIntParameter.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_58)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetObjectIntParameter.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectIntParameter.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosLoadScene.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosLoadScene.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosLoadScene.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosLoadScene.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosLoadScene.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_59)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosLoadScene.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosLoadScene.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectParent.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectParent.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectParent.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectParent.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectParent.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_60)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetObjectParent.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectParent.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectPosition.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectPosition.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectPosition.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectPosition.h: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectPosition.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectPosition.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_61)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetObjectPosition.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectPosition.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosAuxiliaryConsolePrint.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosAuxiliaryConsolePrint.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsolePrint.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosAuxiliaryConsolePrint.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosAuxiliaryConsolePrint.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_62)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosAuxiliaryConsolePrint.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsolePrint.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetBooleanParameter.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetBooleanParameter.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetBooleanParameter.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetBooleanParameter.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetBooleanParameter.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_63)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetBooleanParameter.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetBooleanParameter.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosPauseSimulation.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosPauseSimulation.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosPauseSimulation.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosPauseSimulation.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosPauseSimulation.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_64)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosPauseSimulation.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosPauseSimulation.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetUIEventButton.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetUIEventButton.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUIEventButton.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetUIEventButton.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetUIEventButton.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_65)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetUIEventButton.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUIEventButton.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosRemoveObject.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosRemoveObject.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosRemoveObject.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosRemoveObject.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosRemoveObject.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_66)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosRemoveObject.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosRemoveObject.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetInfo.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetInfo.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetInfo.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetInfo.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetInfo.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetInfo.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_67)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetInfo.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetInfo.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectFloatParameter.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectFloatParameter.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectFloatParameter.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectFloatParameter.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectFloatParameter.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_68)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetObjectFloatParameter.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectFloatParameter.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetUIButtonLabel.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetUIButtonLabel.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetUIButtonLabel.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetUIButtonLabel.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetUIButtonLabel.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_69)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetUIButtonLabel.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetUIButtonLabel.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetUISlider.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetUISlider.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetUISlider.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetUISlider.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetUISlider.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_70)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetUISlider.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetUISlider.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetJointMatrix.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetJointMatrix.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetJointMatrix.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetJointMatrix.h: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetJointMatrix.h: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Transform.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetJointMatrix.h: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/TransformStamped.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetJointMatrix.h: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Vector3.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetJointMatrix.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetJointMatrix.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetJointMatrix.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_71)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetJointMatrix.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetJointMatrix.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetFloatingParameter.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetFloatingParameter.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetFloatingParameter.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetFloatingParameter.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetFloatingParameter.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_72)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetFloatingParameter.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetFloatingParameter.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetVisionSensorImage.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetVisionSensorImage.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetVisionSensorImage.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetVisionSensorImage.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetVisionSensorImage.h: /opt/ros/indigo/share/sensor_msgs/cmake/../msg/Image.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetVisionSensorImage.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetVisionSensorImage.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_73)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetVisionSensorImage.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetVisionSensorImage.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectGroupData.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectGroupData.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectGroupData.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectGroupData.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectGroupData.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_74)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetObjectGroupData.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectGroupData.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetIntegerParameter.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetIntegerParameter.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetIntegerParameter.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetIntegerParameter.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetIntegerParameter.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_75)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetIntegerParameter.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetIntegerParameter.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSynchronousTrigger.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSynchronousTrigger.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSynchronousTrigger.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSynchronousTrigger.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSynchronousTrigger.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_76)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSynchronousTrigger.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSynchronousTrigger.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetJointState.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetJointState.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointState.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetJointState.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetJointState.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_77)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetJointState.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointState.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetVisionSensorImage.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetVisionSensorImage.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetVisionSensorImage.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetVisionSensorImage.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetVisionSensorImage.h: /opt/ros/indigo/share/sensor_msgs/cmake/../msg/Image.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetVisionSensorImage.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetVisionSensorImage.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_78)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetVisionSensorImage.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetVisionSensorImage.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetUIHandle.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetUIHandle.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUIHandle.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetUIHandle.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetUIHandle.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_79)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetUIHandle.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUIHandle.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosCopyPasteObjects.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosCopyPasteObjects.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCopyPasteObjects.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosCopyPasteObjects.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosCopyPasteObjects.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_80)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosCopyPasteObjects.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCopyPasteObjects.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosEndDialog.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosEndDialog.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEndDialog.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosEndDialog.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosEndDialog.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_81)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosEndDialog.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEndDialog.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetJointPosition.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetJointPosition.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointPosition.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetJointPosition.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetJointPosition.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_82)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetJointPosition.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointPosition.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetDialogResult.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetDialogResult.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetDialogResult.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetDialogResult.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetDialogResult.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_83)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetDialogResult.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetDialogResult.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetIntegerSignal.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetIntegerSignal.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetIntegerSignal.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetIntegerSignal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetIntegerSignal.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_84)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetIntegerSignal.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetIntegerSignal.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetCollisionHandle.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetCollisionHandle.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetCollisionHandle.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetCollisionHandle.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetCollisionHandle.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_85)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetCollisionHandle.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetCollisionHandle.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetDialogInput.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetDialogInput.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetDialogInput.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetDialogInput.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetDialogInput.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_86)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetDialogInput.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetDialogInput.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosRemoveModel.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosRemoveModel.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosRemoveModel.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosRemoveModel.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosRemoveModel.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_87)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosRemoveModel.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosRemoveModel.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetJointState.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetJointState.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetJointState.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetJointState.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetJointState.h: /opt/ros/indigo/share/sensor_msgs/cmake/../msg/JointState.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetJointState.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetJointState.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_88)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetJointState.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetJointState.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosDisplayDialog.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosDisplayDialog.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosDisplayDialog.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosDisplayDialog.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosDisplayDialog.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_89)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosDisplayDialog.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosDisplayDialog.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetUIButtonProperty.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetUIButtonProperty.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUIButtonProperty.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetUIButtonProperty.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetUIButtonProperty.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_90)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetUIButtonProperty.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUIButtonProperty.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSynchronous.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSynchronous.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSynchronous.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSynchronous.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSynchronous.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_91)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSynchronous.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSynchronous.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosLoadUI.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosLoadUI.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosLoadUI.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosLoadUI.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosLoadUI.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_92)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosLoadUI.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosLoadUI.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetJointForce.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetJointForce.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointForce.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetJointForce.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetJointForce.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_93)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetJointForce.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointForce.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectPose.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectPose.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectPose.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectPose.h: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectPose.h: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/PoseStamped.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectPose.h: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectPose.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectPose.h: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Pose.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectPose.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectPose.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_94)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetObjectPose.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectPose.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosClearStringSignal.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosClearStringSignal.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosClearStringSignal.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosClearStringSignal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosClearStringSignal.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_95)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosClearStringSignal.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosClearStringSignal.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectChild.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectChild.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectChild.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectChild.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectChild.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_96)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetObjectChild.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectChild.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosReadDistance.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosReadDistance.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadDistance.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosReadDistance.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosReadDistance.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_97)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosReadDistance.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadDistance.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosCallScriptFunction.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosCallScriptFunction.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCallScriptFunction.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosCallScriptFunction.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosCallScriptFunction.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_98)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosCallScriptFunction.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCallScriptFunction.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosCloseScene.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosCloseScene.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCloseScene.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosCloseScene.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosCloseScene.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_99)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosCloseScene.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCloseScene.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetLastErrors.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetLastErrors.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetLastErrors.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetLastErrors.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetLastErrors.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_100)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetLastErrors.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetLastErrors.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosAddStatusbarMessage.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosAddStatusbarMessage.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAddStatusbarMessage.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosAddStatusbarMessage.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosAddStatusbarMessage.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_101)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosAddStatusbarMessage.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAddStatusbarMessage.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectQuaternion.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectQuaternion.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectQuaternion.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectQuaternion.h: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectQuaternion.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectQuaternion.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_102)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetObjectQuaternion.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectQuaternion.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosAuxiliaryConsoleShow.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosAuxiliaryConsoleShow.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsoleShow.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosAuxiliaryConsoleShow.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosAuxiliaryConsoleShow.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_103)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosAuxiliaryConsoleShow.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsoleShow.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetModelProperty.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetModelProperty.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetModelProperty.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetModelProperty.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetModelProperty.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_104)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosGetModelProperty.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetModelProperty.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetIntegerParameter.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetIntegerParameter.h: /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetIntegerParameter.srv
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetIntegerParameter.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetIntegerParameter.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/teacher/PycharmProjects/kukaRos/build/CMakeFiles $(CMAKE_PROGRESS_105)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from vrep_common/simRosSetIntegerParameter.srv"
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetIntegerParameter.srv -Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -p vrep_common -o /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common -e /opt/ros/indigo/share/gencpp/cmake/..
 
 vrep_common_generate_messages_cpp: vrep_common/CMakeFiles/vrep_common_generate_messages_cpp
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/JointSetStateData.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/VisionSensorDepthBuff.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/ScriptFunctionCallData.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/ProximitySensorData.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/VisionSensorData.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/ForceSensorData.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/ObjectGroupData.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/VrepInfo.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetBooleanParameter.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetUISlider.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetFloatingParameter.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetLastErrors.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetJointPosition.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosCreateDummy.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSynchronousTrigger.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosCloseScene.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetJointState.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetVisionSensorDepthBuffer.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetUIEventButton.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosDisplayDialog.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetStringSignal.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosDisableSubscriber.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectSelection.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosStopSimulation.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetUIButtonProperty.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosLoadScene.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectFloatParameter.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectFloatParameter.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosDisablePublisher.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetIntegerSignal.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetJointMatrix.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosReadCollision.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosCallScriptFunction.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosReadProximitySensor.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosEndDialog.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetStringParameter.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetVisionSensorImage.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetFloatSignal.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosLoadModel.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetDistanceHandle.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectChild.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjects.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosRemoveObject.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetVisionSensorImage.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosPauseSimulation.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectPose.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetModelProperty.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosAuxiliaryConsolePrint.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosEnablePublisher.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectParent.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosLoadUI.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetCollisionHandle.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetBooleanParameter.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectIntParameter.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetModelProperty.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetUIButtonLabel.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetSphericalJointMatrix.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosAuxiliaryConsoleOpen.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectSelection.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectQuaternion.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetAndClearStringSignal.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectGroupData.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetInfo.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosReadVisionSensor.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetArrayParameter.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetJointTargetPosition.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetIntegerParameter.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetIntegerSignal.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetArrayParameter.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosBreakForceSensor.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetFloatSignal.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetIntegerParameter.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosEnableSubscriber.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosReadForceSensor.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetStringSignal.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosCopyPasteObjects.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetUIHandle.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetUIButtonProperty.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectPosition.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosClearIntegerSignal.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosAddStatusbarMessage.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetDialogResult.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetFloatingParameter.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetObjectPose.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosAppendStringSignal.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetJointTargetVelocity.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetJointForce.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosTransferFile.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosClearFloatSignal.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSetUISlider.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosClearStringSignal.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosRemoveModel.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectIntParameter.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetJointState.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectHandle.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetCollectionHandle.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosReadDistance.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosSynchronous.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetObjectParent.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosAuxiliaryConsoleShow.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosEraseFile.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosGetDialogInput.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosRemoveUI.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosAuxiliaryConsoleClose.h
-vrep_common_generate_messages_cpp: /home/alex/RosProgramming/kuka/devel/include/vrep_common/simRosStartSimulation.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/ProximitySensorData.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/ScriptFunctionCallData.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/JointSetStateData.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/ForceSensorData.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/VrepInfo.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/VisionSensorData.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/ObjectGroupData.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/VisionSensorDepthBuff.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetSphericalJointMatrix.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectSelection.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosRemoveUI.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetCollectionHandle.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectFloatParameter.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosAuxiliaryConsoleOpen.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosClearIntegerSignal.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectSelection.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosDisableSubscriber.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetJointTargetPosition.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetStringParameter.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosEraseFile.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjects.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectIntParameter.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosEnableSubscriber.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetFloatingParameter.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetAndClearStringSignal.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosEnablePublisher.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosReadVisionSensor.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetModelProperty.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetArrayParameter.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectHandle.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosReadProximitySensor.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetArrayParameter.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosStopSimulation.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosDisablePublisher.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetVisionSensorDepthBuffer.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetUISlider.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosAuxiliaryConsoleClose.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetDistanceHandle.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetUIButtonProperty.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetJointTargetVelocity.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosClearFloatSignal.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosLoadModel.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosReadCollision.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosAppendStringSignal.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosBreakForceSensor.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosStartSimulation.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetStringSignal.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectParent.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetFloatSignal.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetFloatSignal.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectPose.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetStringSignal.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetIntegerSignal.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosCreateDummy.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetBooleanParameter.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosTransferFile.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosReadForceSensor.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectIntParameter.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosLoadScene.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectParent.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectPosition.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosAuxiliaryConsolePrint.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetBooleanParameter.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosPauseSimulation.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetUIEventButton.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosRemoveObject.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetInfo.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectFloatParameter.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetUIButtonLabel.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetUISlider.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetJointMatrix.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetFloatingParameter.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetVisionSensorImage.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectGroupData.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetIntegerParameter.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSynchronousTrigger.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetJointState.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetVisionSensorImage.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetUIHandle.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosCopyPasteObjects.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosEndDialog.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetJointPosition.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetDialogResult.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetIntegerSignal.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetCollisionHandle.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetDialogInput.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosRemoveModel.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetJointState.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosDisplayDialog.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetUIButtonProperty.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSynchronous.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosLoadUI.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetJointForce.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectPose.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosClearStringSignal.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetObjectChild.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosReadDistance.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosCallScriptFunction.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosCloseScene.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetLastErrors.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosAddStatusbarMessage.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetObjectQuaternion.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosAuxiliaryConsoleShow.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosGetModelProperty.h
+vrep_common_generate_messages_cpp: /home/teacher/PycharmProjects/kukaRos/devel/include/vrep_common/simRosSetIntegerParameter.h
 vrep_common_generate_messages_cpp: vrep_common/CMakeFiles/vrep_common_generate_messages_cpp.dir/build.make
 .PHONY : vrep_common_generate_messages_cpp
 
@@ -1152,10 +1152,10 @@ vrep_common/CMakeFiles/vrep_common_generate_messages_cpp.dir/build: vrep_common_
 .PHONY : vrep_common/CMakeFiles/vrep_common_generate_messages_cpp.dir/build
 
 vrep_common/CMakeFiles/vrep_common_generate_messages_cpp.dir/clean:
-	cd /home/alex/RosProgramming/kuka/build/vrep_common && $(CMAKE_COMMAND) -P CMakeFiles/vrep_common_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_common && $(CMAKE_COMMAND) -P CMakeFiles/vrep_common_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : vrep_common/CMakeFiles/vrep_common_generate_messages_cpp.dir/clean
 
 vrep_common/CMakeFiles/vrep_common_generate_messages_cpp.dir/depend:
-	cd /home/alex/RosProgramming/kuka/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alex/RosProgramming/kuka/src /home/alex/RosProgramming/kuka/src/vrep_common /home/alex/RosProgramming/kuka/build /home/alex/RosProgramming/kuka/build/vrep_common /home/alex/RosProgramming/kuka/build/vrep_common/CMakeFiles/vrep_common_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/teacher/PycharmProjects/kukaRos/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/teacher/PycharmProjects/kukaRos/src /home/teacher/PycharmProjects/kukaRos/src/vrep_common /home/teacher/PycharmProjects/kukaRos/build /home/teacher/PycharmProjects/kukaRos/build/vrep_common /home/teacher/PycharmProjects/kukaRos/build/vrep_common/CMakeFiles/vrep_common_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : vrep_common/CMakeFiles/vrep_common_generate_messages_cpp.dir/depend
 

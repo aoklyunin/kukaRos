@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/alex/RosProgramming/kuka/devel:$CMAKE_PREFIX_PATH"
-export PWD="/home/alex/RosProgramming/kuka/build"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/alex/RosProgramming/kuka/devel/share/common-lisp"
-export ROS_PACKAGE_PATH="/home/alex/RosProgramming/kuka/src:$ROS_PACKAGE_PATH"
+export CPATH="/opt/ros/indigo/include"
+export PKG_CONFIG_PATH="/opt/ros/indigo/lib/pkgconfig"
+export PWD="/home/teacher/PycharmProjects/kukaRos/build"
+export PYTHONPATH="/opt/ros/indigo/lib/python2.7/dist-packages"

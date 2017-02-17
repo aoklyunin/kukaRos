@@ -2,7 +2,7 @@
 
 message(STATUS "vrep_common: 8 messages, 97 services")
 
-set(MSG_I_FLAGS "-Ivrep_common:/home/alex/RosProgramming/kuka/src/vrep_common/msg;-Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg;-Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Ivrep_common:/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg;-Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg;-Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -15,529 +15,529 @@ add_custom_target(vrep_common_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetBooleanParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetSphericalJointMatrix.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetBooleanParameter.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetSphericalJointMatrix.srv" "geometry_msgs/Quaternion"
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUISlider.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/JointSetStateData.msg" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUISlider.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/JointSetStateData.msg" "std_msgs/Float32MultiArray:std_msgs/MultiArrayLayout:std_msgs/UInt8MultiArray:std_msgs/MultiArrayDimension:std_msgs/Int32MultiArray"
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetFloatingParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectSelection.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetFloatingParameter.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectSelection.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetLastErrors.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosRemoveUI.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetLastErrors.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosRemoveUI.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointPosition.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetCollectionHandle.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointPosition.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetCollectionHandle.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCreateDummy.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectFloatParameter.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCreateDummy.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectFloatParameter.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSynchronousTrigger.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsoleOpen.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSynchronousTrigger.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsoleOpen.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCloseScene.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosClearIntegerSignal.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCloseScene.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosClearIntegerSignal.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointState.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectSelection.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointState.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectSelection.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetVisionSensorDepthBuffer.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosDisableSubscriber.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetVisionSensorDepthBuffer.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosDisableSubscriber.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUIEventButton.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointTargetPosition.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUIEventButton.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointTargetPosition.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosDisplayDialog.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetStringParameter.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosDisplayDialog.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetStringParameter.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetStringSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEraseFile.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetStringSignal.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEraseFile.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosDisableSubscriber.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ObjectGroupData.msg" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosDisableSubscriber.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ObjectGroupData.msg" "std_msgs/Float32MultiArray:std_msgs/MultiArrayLayout:std_msgs/String:std_msgs/MultiArrayDimension:std_msgs/Int32MultiArray"
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectSelection.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjects.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectSelection.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjects.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/msg/VisionSensorDepthBuff.msg" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectIntParameter.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/msg/VisionSensorDepthBuff.msg" "std_msgs/Float32MultiArray:std_msgs/MultiArrayLayout:std_msgs/MultiArrayDimension:std_msgs/Int32"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectIntParameter.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosStopSimulation.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEnableSubscriber.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosStopSimulation.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEnableSubscriber.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetUIButtonProperty.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectParent.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetUIButtonProperty.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectParent.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosLoadScene.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetFloatingParameter.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosLoadScene.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetFloatingParameter.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/msg/VisionSensorData.msg" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetAndClearStringSignal.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/msg/VisionSensorData.msg" "std_msgs/Float32MultiArray:std_msgs/MultiArrayLayout:std_msgs/Int32MultiArray:std_msgs/MultiArrayDimension:std_msgs/Int32"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetAndClearStringSignal.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/msg/ObjectGroupData.msg" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEnablePublisher.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/msg/ObjectGroupData.msg" "std_msgs/Float32MultiArray:std_msgs/MultiArrayLayout:std_msgs/String:std_msgs/MultiArrayDimension:std_msgs/Int32MultiArray"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEnablePublisher.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectFloatParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadVisionSensor.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectFloatParameter.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadVisionSensor.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectFloatParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetModelProperty.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectFloatParameter.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetModelProperty.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosDisablePublisher.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetArrayParameter.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosDisablePublisher.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetArrayParameter.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetIntegerSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectHandle.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetIntegerSignal.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectHandle.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetJointMatrix.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadProximitySensor.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetJointMatrix.srv" "geometry_msgs/Quaternion:geometry_msgs/Transform:geometry_msgs/TransformStamped:geometry_msgs/Vector3:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadProximitySensor.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadCollision.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetArrayParameter.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadCollision.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetArrayParameter.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCallScriptFunction.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosStopSimulation.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCallScriptFunction.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosStopSimulation.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadProximitySensor.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosDisablePublisher.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadProximitySensor.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosDisablePublisher.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEndDialog.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetVisionSensorDepthBuffer.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEndDialog.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetVisionSensorDepthBuffer.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetStringParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ScriptFunctionCallData.msg" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetStringParameter.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ScriptFunctionCallData.msg" "std_msgs/Float32MultiArray:std_msgs/MultiArrayLayout:std_msgs/String:std_msgs/MultiArrayDimension:std_msgs/Int32MultiArray"
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetVisionSensorImage.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUISlider.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetVisionSensorImage.srv" "std_msgs/Header:sensor_msgs/Image"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUISlider.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetFloatSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsoleClose.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetFloatSignal.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsoleClose.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosLoadModel.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetDistanceHandle.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosLoadModel.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetDistanceHandle.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetDistanceHandle.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetUIButtonProperty.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetDistanceHandle.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetUIButtonProperty.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectChild.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointTargetVelocity.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectChild.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointTargetVelocity.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjects.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ForceSensorData.msg" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjects.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ForceSensorData.msg" "geometry_msgs/Vector3:std_msgs/Int32"
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosRemoveObject.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosLoadModel.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosRemoveObject.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosLoadModel.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetVisionSensorImage.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadCollision.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetVisionSensorImage.srv" "std_msgs/Header:sensor_msgs/Image"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadCollision.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosPauseSimulation.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAppendStringSignal.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosPauseSimulation.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAppendStringSignal.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectPose.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosBreakForceSensor.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectPose.srv" "geometry_msgs/Point:geometry_msgs/PoseStamped:geometry_msgs/Quaternion:std_msgs/Header:geometry_msgs/Pose"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosBreakForceSensor.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetCollectionHandle.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosStartSimulation.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetCollectionHandle.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosStartSimulation.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetModelProperty.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetStringSignal.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetModelProperty.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetStringSignal.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsolePrint.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUIEventButton.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsolePrint.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUIEventButton.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEnablePublisher.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetFloatSignal.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEnablePublisher.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetFloatSignal.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectParent.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetFloatSignal.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectParent.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetFloatSignal.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetIntegerParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectPose.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetIntegerParameter.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectPose.srv" "geometry_msgs/Quaternion:geometry_msgs/Point:geometry_msgs/Pose"
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetCollisionHandle.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetStringSignal.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetCollisionHandle.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetStringSignal.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetBooleanParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetIntegerSignal.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetBooleanParameter.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetIntegerSignal.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectIntParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCloseScene.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectIntParameter.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCloseScene.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/msg/ForceSensorData.msg" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCreateDummy.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/msg/ForceSensorData.msg" "geometry_msgs/Vector3:std_msgs/Int32"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCreateDummy.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetModelProperty.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetBooleanParameter.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetModelProperty.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetBooleanParameter.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadForceSensor.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosTransferFile.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadForceSensor.srv" "geometry_msgs/Vector3"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosTransferFile.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetSphericalJointMatrix.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadForceSensor.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetSphericalJointMatrix.srv" "geometry_msgs/Quaternion"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadForceSensor.srv" "geometry_msgs/Vector3"
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsoleOpen.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectIntParameter.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsoleOpen.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectIntParameter.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUIHandle.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ProximitySensorData.msg" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUIHandle.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ProximitySensorData.msg" "geometry_msgs/Point32:std_msgs/Int32"
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectQuaternion.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosLoadScene.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectQuaternion.srv" "geometry_msgs/Quaternion"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosLoadScene.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetAndClearStringSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/VrepInfo.msg" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetAndClearStringSignal.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/VrepInfo.msg" "std_msgs/Float32:std_msgs/Header:std_msgs/Int32"
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/msg/JointSetStateData.msg" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectPosition.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/msg/JointSetStateData.msg" "std_msgs/Float32MultiArray:std_msgs/MultiArrayLayout:std_msgs/UInt8MultiArray:std_msgs/MultiArrayDimension:std_msgs/Int32MultiArray"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectPosition.srv" "geometry_msgs/Point"
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectGroupData.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/VisionSensorData.msg" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectGroupData.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/VisionSensorData.msg" "std_msgs/Float32MultiArray:std_msgs/MultiArrayLayout:std_msgs/Int32MultiArray:std_msgs/MultiArrayDimension:std_msgs/Int32"
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetInfo.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsolePrint.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetInfo.srv" "std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsolePrint.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadVisionSensor.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosPauseSimulation.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadVisionSensor.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosPauseSimulation.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosClearIntegerSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectParent.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosClearIntegerSignal.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectParent.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointTargetPosition.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosRemoveObject.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointTargetPosition.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosRemoveObject.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetIntegerParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetInfo.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetIntegerParameter.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetInfo.srv" "std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetIntegerSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectFloatParameter.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetIntegerSignal.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectFloatParameter.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetArrayParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetIntegerParameter.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetArrayParameter.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetIntegerParameter.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosBreakForceSensor.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetBooleanParameter.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosBreakForceSensor.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetBooleanParameter.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetFloatSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetJointMatrix.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetFloatSignal.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetJointMatrix.srv" "geometry_msgs/Quaternion:geometry_msgs/Transform:geometry_msgs/TransformStamped:geometry_msgs/Vector3:std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosLoadUI.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetFloatingParameter.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosLoadUI.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetFloatingParameter.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsoleShow.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetVisionSensorImage.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsoleShow.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetVisionSensorImage.srv" "std_msgs/Header:sensor_msgs/Image"
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEnableSubscriber.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectGroupData.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEnableSubscriber.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectGroupData.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetUIButtonLabel.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetUIButtonLabel.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetUIButtonLabel.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetUIButtonLabel.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCopyPasteObjects.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSynchronousTrigger.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCopyPasteObjects.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSynchronousTrigger.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectSelection.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointState.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectSelection.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointState.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUIButtonProperty.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetVisionSensorImage.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUIButtonProperty.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetVisionSensorImage.srv" "std_msgs/Header:sensor_msgs/Image"
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEraseFile.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUIHandle.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEraseFile.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUIHandle.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetArrayParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCopyPasteObjects.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetArrayParameter.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCopyPasteObjects.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAddStatusbarMessage.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEndDialog.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAddStatusbarMessage.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEndDialog.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetDialogResult.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointPosition.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetDialogResult.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointPosition.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetFloatingParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAddStatusbarMessage.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetFloatingParameter.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAddStatusbarMessage.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectPose.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetIntegerSignal.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectPose.srv" "geometry_msgs/Quaternion:geometry_msgs/Point:geometry_msgs/Pose"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetIntegerSignal.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAppendStringSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetCollisionHandle.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAppendStringSignal.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetCollisionHandle.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointTargetVelocity.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetDialogInput.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointTargetVelocity.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetDialogInput.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/msg/ScriptFunctionCallData.msg" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosRemoveModel.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/msg/ScriptFunctionCallData.msg" "std_msgs/Float32MultiArray:std_msgs/MultiArrayLayout:std_msgs/String:std_msgs/MultiArrayDimension:std_msgs/Int32MultiArray"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosRemoveModel.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointForce.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/VisionSensorDepthBuff.msg" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointForce.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/VisionSensorDepthBuff.msg" "std_msgs/Float32MultiArray:std_msgs/MultiArrayLayout:std_msgs/MultiArrayDimension:std_msgs/Int32"
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosTransferFile.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetJointState.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosTransferFile.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetJointState.srv" "std_msgs/Header:sensor_msgs/JointState"
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosClearFloatSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosDisplayDialog.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosClearFloatSignal.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosDisplayDialog.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetUISlider.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUIButtonProperty.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetUISlider.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUIButtonProperty.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosClearStringSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSynchronous.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosClearStringSignal.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSynchronous.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosRemoveModel.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosLoadUI.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosRemoveModel.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosLoadUI.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsoleClose.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointForce.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsoleClose.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointForce.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetJointState.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectPose.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetJointState.srv" "std_msgs/Header:sensor_msgs/JointState"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectPose.srv" "geometry_msgs/Point:geometry_msgs/PoseStamped:geometry_msgs/Quaternion:std_msgs/Header:geometry_msgs/Pose"
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectHandle.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosClearStringSignal.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectHandle.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosClearStringSignal.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/msg/ProximitySensorData.msg" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectChild.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/msg/ProximitySensorData.msg" "geometry_msgs/Point32:std_msgs/Int32"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectChild.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadDistance.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadDistance.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadDistance.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadDistance.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSynchronous.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCallScriptFunction.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSynchronous.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCallScriptFunction.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosStartSimulation.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetUISlider.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosStartSimulation.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetUISlider.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetStringSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetLastErrors.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetStringSignal.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetLastErrors.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectPosition.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetDialogResult.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectPosition.srv" "geometry_msgs/Point"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetDialogResult.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetDialogInput.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectQuaternion.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetDialogInput.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectQuaternion.srv" "geometry_msgs/Quaternion"
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosRemoveUI.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsoleShow.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosRemoveUI.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsoleShow.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectIntParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetModelProperty.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectIntParameter.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetModelProperty.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/msg/VrepInfo.msg" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetIntegerParameter.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/msg/VrepInfo.msg" "std_msgs/Float32:std_msgs/Header:std_msgs/Int32"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetIntegerParameter.srv" ""
 )
 
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectParent.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosClearFloatSignal.srv" NAME_WE)
 add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectParent.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "vrep_common" "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosClearFloatSignal.srv" ""
 )
 
 #
@@ -547,633 +547,633 @@ add_custom_target(_vrep_common_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/msg/JointSetStateData.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32MultiArray.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayLayout.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/UInt8MultiArray.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32MultiArray.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_msg_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/msg/VisionSensorDepthBuff.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32MultiArray.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayLayout.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_msg_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/msg/ScriptFunctionCallData.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32MultiArray.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayLayout.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/String.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32MultiArray.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_msg_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/msg/ProximitySensorData.msg"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ProximitySensorData.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_msg_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/msg/VisionSensorData.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32MultiArray.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayLayout.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32MultiArray.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_msg_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/msg/ForceSensorData.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_msg_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/msg/ObjectGroupData.msg"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ScriptFunctionCallData.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32MultiArray.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayLayout.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/String.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32MultiArray.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_msg_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/msg/VrepInfo.msg"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/JointSetStateData.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32MultiArray.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayLayout.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/UInt8MultiArray.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32MultiArray.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_msg_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ForceSensorData.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_msg_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/VrepInfo.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_msg_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/VisionSensorData.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32MultiArray.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayLayout.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32MultiArray.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_msg_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ObjectGroupData.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32MultiArray.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayLayout.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/String.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32MultiArray.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_msg_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/VisionSensorDepthBuff.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32MultiArray.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayLayout.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 
 ### Generating Services
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetBooleanParameter.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUISlider.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetFloatingParameter.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetLastErrors.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointPosition.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCreateDummy.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSynchronousTrigger.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCloseScene.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointState.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetVisionSensorDepthBuffer.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUIEventButton.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosDisplayDialog.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetStringSignal.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosDisableSubscriber.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectSelection.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosStopSimulation.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetUIButtonProperty.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosLoadScene.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectFloatParameter.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectFloatParameter.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosDisablePublisher.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetIntegerSignal.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetJointMatrix.srv"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadCollision.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCallScriptFunction.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadProximitySensor.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEndDialog.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetStringParameter.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetVisionSensorImage.srv"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/indigo/share/sensor_msgs/cmake/../msg/Image.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetFloatSignal.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosLoadModel.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetDistanceHandle.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectChild.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjects.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosRemoveObject.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetVisionSensorImage.srv"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/indigo/share/sensor_msgs/cmake/../msg/Image.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosPauseSimulation.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectPose.srv"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Pose.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetModelProperty.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsolePrint.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEnablePublisher.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectParent.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosLoadUI.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetCollisionHandle.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetBooleanParameter.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectIntParameter.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetModelProperty.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetUIButtonLabel.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetSphericalJointMatrix.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetSphericalJointMatrix.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsoleOpen.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectSelection.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectSelection.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosRemoveUI.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectQuaternion.srv"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetAndClearStringSignal.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetCollectionHandle.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectGroupData.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectFloatParameter.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetInfo.srv"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadVisionSensor.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsoleOpen.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetArrayParameter.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosClearIntegerSignal.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointTargetPosition.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectSelection.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetIntegerParameter.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosDisableSubscriber.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetIntegerSignal.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointTargetPosition.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetArrayParameter.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetStringParameter.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosBreakForceSensor.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEraseFile.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetFloatSignal.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjects.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetIntegerParameter.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectIntParameter.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEnableSubscriber.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEnableSubscriber.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadForceSensor.srv"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Vector3.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetStringSignal.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetFloatingParameter.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCopyPasteObjects.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetAndClearStringSignal.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUIHandle.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEnablePublisher.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUIButtonProperty.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadVisionSensor.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectPosition.srv"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosClearIntegerSignal.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetModelProperty.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAddStatusbarMessage.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetArrayParameter.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetDialogResult.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectHandle.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetFloatingParameter.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadProximitySensor.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectPose.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetArrayParameter.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosStopSimulation.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosDisablePublisher.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetVisionSensorDepthBuffer.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUISlider.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsoleClose.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetDistanceHandle.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetUIButtonProperty.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointTargetVelocity.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosClearFloatSignal.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosLoadModel.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadCollision.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAppendStringSignal.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosBreakForceSensor.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosStartSimulation.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetStringSignal.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectParent.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetFloatSignal.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetFloatSignal.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectPose.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAppendStringSignal.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetStringSignal.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointTargetVelocity.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetIntegerSignal.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointForce.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCreateDummy.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosTransferFile.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetBooleanParameter.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosClearFloatSignal.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosTransferFile.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetUISlider.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadForceSensor.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectIntParameter.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosClearStringSignal.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosLoadScene.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosRemoveModel.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectParent.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectIntParameter.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectPosition.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsolePrint.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetJointState.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetBooleanParameter.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosPauseSimulation.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUIEventButton.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosRemoveObject.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetInfo.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectFloatParameter.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetUIButtonLabel.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetUISlider.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetJointMatrix.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetFloatingParameter.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetVisionSensorImage.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/indigo/share/sensor_msgs/cmake/../msg/Image.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectGroupData.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetIntegerParameter.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSynchronousTrigger.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointState.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetVisionSensorImage.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/indigo/share/sensor_msgs/cmake/../msg/Image.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUIHandle.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCopyPasteObjects.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEndDialog.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointPosition.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetDialogResult.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetIntegerSignal.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetCollisionHandle.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetDialogInput.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosRemoveModel.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetJointState.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/indigo/share/sensor_msgs/cmake/../msg/JointState.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectHandle.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosDisplayDialog.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetCollectionHandle.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUIButtonProperty.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadDistance.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSynchronous.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSynchronous.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosLoadUI.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectParent.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointForce.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsoleShow.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectPose.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Pose.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosClearStringSignal.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEraseFile.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectChild.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetDialogInput.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadDistance.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosRemoveUI.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCallScriptFunction.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsoleClose.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCloseScene.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_cpp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosStartSimulation.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetLastErrors.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAddStatusbarMessage.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectQuaternion.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsoleShow.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetModelProperty.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_cpp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetIntegerParameter.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/vrep_common
@@ -1191,215 +1191,215 @@ add_custom_target(vrep_common_generate_messages_cpp
 add_dependencies(vrep_common_generate_messages vrep_common_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetBooleanParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetSphericalJointMatrix.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUISlider.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/JointSetStateData.msg" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetFloatingParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectSelection.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetLastErrors.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosRemoveUI.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointPosition.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetCollectionHandle.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCreateDummy.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectFloatParameter.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSynchronousTrigger.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsoleOpen.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCloseScene.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosClearIntegerSignal.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointState.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectSelection.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetVisionSensorDepthBuffer.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosDisableSubscriber.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUIEventButton.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointTargetPosition.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosDisplayDialog.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetStringParameter.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetStringSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEraseFile.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosDisableSubscriber.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ObjectGroupData.msg" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectSelection.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjects.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/msg/VisionSensorDepthBuff.msg" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectIntParameter.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosStopSimulation.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEnableSubscriber.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetUIButtonProperty.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectParent.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosLoadScene.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetFloatingParameter.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/msg/VisionSensorData.msg" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetAndClearStringSignal.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/msg/ObjectGroupData.msg" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEnablePublisher.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectFloatParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadVisionSensor.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectFloatParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetModelProperty.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosDisablePublisher.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetArrayParameter.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetIntegerSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectHandle.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetJointMatrix.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadProximitySensor.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadCollision.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetArrayParameter.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCallScriptFunction.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosStopSimulation.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadProximitySensor.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosDisablePublisher.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEndDialog.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetVisionSensorDepthBuffer.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetStringParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ScriptFunctionCallData.msg" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetVisionSensorImage.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUISlider.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetFloatSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsoleClose.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosLoadModel.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetDistanceHandle.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetDistanceHandle.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetUIButtonProperty.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectChild.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointTargetVelocity.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjects.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ForceSensorData.msg" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosRemoveObject.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosLoadModel.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetVisionSensorImage.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadCollision.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosPauseSimulation.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAppendStringSignal.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectPose.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosBreakForceSensor.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetCollectionHandle.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosStartSimulation.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetModelProperty.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetStringSignal.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsolePrint.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUIEventButton.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEnablePublisher.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetFloatSignal.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectParent.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetFloatSignal.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetIntegerParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectPose.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetCollisionHandle.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetStringSignal.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetBooleanParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetIntegerSignal.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectIntParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCloseScene.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/msg/ForceSensorData.msg" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCreateDummy.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetModelProperty.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetBooleanParameter.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadForceSensor.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosTransferFile.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetSphericalJointMatrix.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadForceSensor.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsoleOpen.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectIntParameter.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUIHandle.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ProximitySensorData.msg" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectQuaternion.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosLoadScene.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetAndClearStringSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/VrepInfo.msg" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/msg/JointSetStateData.msg" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectPosition.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectGroupData.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/VisionSensorData.msg" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetInfo.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsolePrint.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadVisionSensor.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosPauseSimulation.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosClearIntegerSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectParent.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointTargetPosition.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosRemoveObject.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetIntegerParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetInfo.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetIntegerSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectFloatParameter.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetArrayParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetIntegerParameter.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosBreakForceSensor.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetBooleanParameter.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetFloatSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetJointMatrix.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosLoadUI.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetFloatingParameter.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsoleShow.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetVisionSensorImage.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEnableSubscriber.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectGroupData.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetUIButtonLabel.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetUIButtonLabel.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCopyPasteObjects.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSynchronousTrigger.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectSelection.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointState.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUIButtonProperty.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetVisionSensorImage.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEraseFile.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUIHandle.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetArrayParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCopyPasteObjects.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAddStatusbarMessage.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEndDialog.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetDialogResult.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointPosition.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetFloatingParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAddStatusbarMessage.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectPose.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetIntegerSignal.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAppendStringSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetCollisionHandle.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointTargetVelocity.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetDialogInput.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/msg/ScriptFunctionCallData.msg" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosRemoveModel.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointForce.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/VisionSensorDepthBuff.msg" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosTransferFile.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetJointState.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosClearFloatSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosDisplayDialog.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetUISlider.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUIButtonProperty.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosClearStringSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSynchronous.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosRemoveModel.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosLoadUI.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsoleClose.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointForce.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetJointState.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectPose.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectHandle.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosClearStringSignal.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/msg/ProximitySensorData.msg" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectChild.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadDistance.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadDistance.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSynchronous.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCallScriptFunction.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosStartSimulation.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetUISlider.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetStringSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetLastErrors.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectPosition.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetDialogResult.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetDialogInput.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectQuaternion.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosRemoveUI.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsoleShow.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectIntParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetModelProperty.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/msg/VrepInfo.msg" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetIntegerParameter.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectParent.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosClearFloatSignal.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_cpp _vrep_common_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -1412,633 +1412,633 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS vrep_common_generate_messages_cpp)
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/msg/JointSetStateData.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32MultiArray.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayLayout.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/UInt8MultiArray.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32MultiArray.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_msg_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/msg/VisionSensorDepthBuff.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32MultiArray.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayLayout.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_msg_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/msg/ScriptFunctionCallData.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32MultiArray.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayLayout.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/String.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32MultiArray.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_msg_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/msg/ProximitySensorData.msg"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ProximitySensorData.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_msg_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/msg/VisionSensorData.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32MultiArray.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayLayout.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32MultiArray.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_msg_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/msg/ForceSensorData.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_msg_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/msg/ObjectGroupData.msg"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ScriptFunctionCallData.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32MultiArray.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayLayout.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/String.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32MultiArray.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_msg_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/msg/VrepInfo.msg"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/JointSetStateData.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32MultiArray.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayLayout.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/UInt8MultiArray.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32MultiArray.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_msg_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ForceSensorData.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_msg_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/VrepInfo.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_msg_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/VisionSensorData.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32MultiArray.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayLayout.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32MultiArray.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_msg_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ObjectGroupData.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32MultiArray.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayLayout.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/String.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32MultiArray.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_msg_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/VisionSensorDepthBuff.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32MultiArray.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayLayout.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 
 ### Generating Services
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetBooleanParameter.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUISlider.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetFloatingParameter.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetLastErrors.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointPosition.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCreateDummy.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSynchronousTrigger.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCloseScene.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointState.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetVisionSensorDepthBuffer.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUIEventButton.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosDisplayDialog.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetStringSignal.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosDisableSubscriber.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectSelection.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosStopSimulation.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetUIButtonProperty.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosLoadScene.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectFloatParameter.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectFloatParameter.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosDisablePublisher.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetIntegerSignal.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetJointMatrix.srv"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadCollision.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCallScriptFunction.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadProximitySensor.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEndDialog.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetStringParameter.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetVisionSensorImage.srv"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/indigo/share/sensor_msgs/cmake/../msg/Image.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetFloatSignal.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosLoadModel.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetDistanceHandle.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectChild.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjects.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosRemoveObject.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetVisionSensorImage.srv"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/indigo/share/sensor_msgs/cmake/../msg/Image.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosPauseSimulation.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectPose.srv"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Pose.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetModelProperty.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsolePrint.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEnablePublisher.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectParent.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosLoadUI.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetCollisionHandle.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetBooleanParameter.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectIntParameter.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetModelProperty.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetUIButtonLabel.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetSphericalJointMatrix.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetSphericalJointMatrix.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsoleOpen.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectSelection.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectSelection.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosRemoveUI.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectQuaternion.srv"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetAndClearStringSignal.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetCollectionHandle.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectGroupData.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectFloatParameter.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetInfo.srv"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadVisionSensor.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsoleOpen.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetArrayParameter.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosClearIntegerSignal.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointTargetPosition.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectSelection.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetIntegerParameter.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosDisableSubscriber.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetIntegerSignal.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointTargetPosition.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetArrayParameter.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetStringParameter.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosBreakForceSensor.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEraseFile.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetFloatSignal.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjects.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetIntegerParameter.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectIntParameter.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEnableSubscriber.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEnableSubscriber.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadForceSensor.srv"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Vector3.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetStringSignal.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetFloatingParameter.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCopyPasteObjects.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetAndClearStringSignal.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUIHandle.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEnablePublisher.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUIButtonProperty.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadVisionSensor.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectPosition.srv"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
-)
-_generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosClearIntegerSignal.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetModelProperty.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAddStatusbarMessage.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetArrayParameter.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetDialogResult.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectHandle.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetFloatingParameter.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadProximitySensor.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectPose.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetArrayParameter.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosStopSimulation.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosDisablePublisher.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetVisionSensorDepthBuffer.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUISlider.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsoleClose.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetDistanceHandle.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetUIButtonProperty.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointTargetVelocity.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosClearFloatSignal.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosLoadModel.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadCollision.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAppendStringSignal.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosBreakForceSensor.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosStartSimulation.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetStringSignal.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectParent.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetFloatSignal.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetFloatSignal.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectPose.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAppendStringSignal.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetStringSignal.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointTargetVelocity.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetIntegerSignal.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointForce.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCreateDummy.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosTransferFile.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetBooleanParameter.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosClearFloatSignal.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosTransferFile.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetUISlider.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadForceSensor.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectIntParameter.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosClearStringSignal.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosLoadScene.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosRemoveModel.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectParent.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectIntParameter.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectPosition.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsolePrint.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetJointState.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetBooleanParameter.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosPauseSimulation.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUIEventButton.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosRemoveObject.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetInfo.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectFloatParameter.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetUIButtonLabel.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetUISlider.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetJointMatrix.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetFloatingParameter.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetVisionSensorImage.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/indigo/share/sensor_msgs/cmake/../msg/Image.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectGroupData.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetIntegerParameter.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSynchronousTrigger.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointState.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetVisionSensorImage.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/indigo/share/sensor_msgs/cmake/../msg/Image.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUIHandle.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCopyPasteObjects.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEndDialog.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointPosition.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetDialogResult.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetIntegerSignal.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetCollisionHandle.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetDialogInput.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosRemoveModel.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetJointState.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/indigo/share/sensor_msgs/cmake/../msg/JointState.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectHandle.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosDisplayDialog.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetCollectionHandle.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUIButtonProperty.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadDistance.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSynchronous.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSynchronous.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosLoadUI.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectParent.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointForce.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsoleShow.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectPose.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Pose.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosClearStringSignal.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEraseFile.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectChild.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetDialogInput.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadDistance.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosRemoveUI.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCallScriptFunction.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsoleClose.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCloseScene.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
 )
 _generate_srv_lisp(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosStartSimulation.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetLastErrors.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAddStatusbarMessage.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectQuaternion.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsoleShow.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetModelProperty.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
+)
+_generate_srv_lisp(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetIntegerParameter.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/vrep_common
@@ -2056,215 +2056,215 @@ add_custom_target(vrep_common_generate_messages_lisp
 add_dependencies(vrep_common_generate_messages vrep_common_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetBooleanParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetSphericalJointMatrix.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUISlider.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/JointSetStateData.msg" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetFloatingParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectSelection.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetLastErrors.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosRemoveUI.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointPosition.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetCollectionHandle.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCreateDummy.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectFloatParameter.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSynchronousTrigger.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsoleOpen.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCloseScene.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosClearIntegerSignal.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointState.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectSelection.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetVisionSensorDepthBuffer.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosDisableSubscriber.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUIEventButton.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointTargetPosition.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosDisplayDialog.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetStringParameter.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetStringSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEraseFile.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosDisableSubscriber.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ObjectGroupData.msg" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectSelection.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjects.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/msg/VisionSensorDepthBuff.msg" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectIntParameter.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosStopSimulation.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEnableSubscriber.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetUIButtonProperty.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectParent.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosLoadScene.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetFloatingParameter.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/msg/VisionSensorData.msg" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetAndClearStringSignal.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/msg/ObjectGroupData.msg" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEnablePublisher.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectFloatParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadVisionSensor.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectFloatParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetModelProperty.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosDisablePublisher.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetArrayParameter.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetIntegerSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectHandle.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetJointMatrix.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadProximitySensor.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadCollision.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetArrayParameter.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCallScriptFunction.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosStopSimulation.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadProximitySensor.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosDisablePublisher.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEndDialog.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetVisionSensorDepthBuffer.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetStringParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ScriptFunctionCallData.msg" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetVisionSensorImage.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUISlider.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetFloatSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsoleClose.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosLoadModel.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetDistanceHandle.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetDistanceHandle.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetUIButtonProperty.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectChild.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointTargetVelocity.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjects.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ForceSensorData.msg" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosRemoveObject.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosLoadModel.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetVisionSensorImage.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadCollision.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosPauseSimulation.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAppendStringSignal.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectPose.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosBreakForceSensor.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetCollectionHandle.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosStartSimulation.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetModelProperty.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetStringSignal.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsolePrint.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUIEventButton.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEnablePublisher.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetFloatSignal.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectParent.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetFloatSignal.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetIntegerParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectPose.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetCollisionHandle.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetStringSignal.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetBooleanParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetIntegerSignal.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectIntParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCloseScene.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/msg/ForceSensorData.msg" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCreateDummy.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetModelProperty.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetBooleanParameter.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadForceSensor.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosTransferFile.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetSphericalJointMatrix.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadForceSensor.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsoleOpen.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectIntParameter.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUIHandle.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ProximitySensorData.msg" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectQuaternion.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosLoadScene.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetAndClearStringSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/VrepInfo.msg" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/msg/JointSetStateData.msg" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectPosition.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectGroupData.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/VisionSensorData.msg" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetInfo.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsolePrint.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadVisionSensor.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosPauseSimulation.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosClearIntegerSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectParent.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointTargetPosition.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosRemoveObject.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetIntegerParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetInfo.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetIntegerSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectFloatParameter.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetArrayParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetIntegerParameter.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosBreakForceSensor.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetBooleanParameter.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetFloatSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetJointMatrix.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosLoadUI.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetFloatingParameter.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsoleShow.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetVisionSensorImage.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEnableSubscriber.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectGroupData.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetUIButtonLabel.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetUIButtonLabel.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCopyPasteObjects.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSynchronousTrigger.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectSelection.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointState.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUIButtonProperty.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetVisionSensorImage.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEraseFile.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUIHandle.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetArrayParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCopyPasteObjects.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAddStatusbarMessage.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEndDialog.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetDialogResult.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointPosition.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetFloatingParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAddStatusbarMessage.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectPose.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetIntegerSignal.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAppendStringSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetCollisionHandle.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointTargetVelocity.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetDialogInput.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/msg/ScriptFunctionCallData.msg" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosRemoveModel.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointForce.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/VisionSensorDepthBuff.msg" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosTransferFile.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetJointState.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosClearFloatSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosDisplayDialog.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetUISlider.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUIButtonProperty.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosClearStringSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSynchronous.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosRemoveModel.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosLoadUI.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsoleClose.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointForce.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetJointState.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectPose.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectHandle.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosClearStringSignal.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/msg/ProximitySensorData.msg" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectChild.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadDistance.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadDistance.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSynchronous.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCallScriptFunction.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosStartSimulation.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetUISlider.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetStringSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetLastErrors.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectPosition.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetDialogResult.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetDialogInput.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectQuaternion.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosRemoveUI.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsoleShow.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectIntParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetModelProperty.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/msg/VrepInfo.msg" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetIntegerParameter.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectParent.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosClearFloatSignal.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_lisp _vrep_common_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -2277,633 +2277,633 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS vrep_common_generate_messages_lisp)
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/msg/JointSetStateData.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32MultiArray.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayLayout.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/UInt8MultiArray.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32MultiArray.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_msg_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/msg/VisionSensorDepthBuff.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32MultiArray.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayLayout.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_msg_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/msg/ScriptFunctionCallData.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32MultiArray.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayLayout.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/String.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32MultiArray.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_msg_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/msg/ProximitySensorData.msg"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ProximitySensorData.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_msg_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/msg/VisionSensorData.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32MultiArray.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayLayout.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32MultiArray.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_msg_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/msg/ForceSensorData.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_msg_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/msg/ObjectGroupData.msg"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ScriptFunctionCallData.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32MultiArray.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayLayout.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/String.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32MultiArray.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_msg_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/msg/VrepInfo.msg"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/JointSetStateData.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32MultiArray.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayLayout.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/UInt8MultiArray.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32MultiArray.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_msg_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ForceSensorData.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_msg_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/VrepInfo.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_msg_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/VisionSensorData.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32MultiArray.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayLayout.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32MultiArray.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_msg_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ObjectGroupData.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32MultiArray.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayLayout.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/String.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32MultiArray.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_msg_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/VisionSensorDepthBuff.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Float32MultiArray.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayLayout.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Int32.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 
 ### Generating Services
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetBooleanParameter.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUISlider.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetFloatingParameter.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetLastErrors.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointPosition.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCreateDummy.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSynchronousTrigger.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCloseScene.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointState.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetVisionSensorDepthBuffer.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUIEventButton.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosDisplayDialog.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetStringSignal.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosDisableSubscriber.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectSelection.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosStopSimulation.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetUIButtonProperty.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosLoadScene.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectFloatParameter.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectFloatParameter.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosDisablePublisher.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetIntegerSignal.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetJointMatrix.srv"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadCollision.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCallScriptFunction.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadProximitySensor.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEndDialog.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetStringParameter.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetVisionSensorImage.srv"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/indigo/share/sensor_msgs/cmake/../msg/Image.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetFloatSignal.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosLoadModel.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetDistanceHandle.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectChild.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjects.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosRemoveObject.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetVisionSensorImage.srv"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/indigo/share/sensor_msgs/cmake/../msg/Image.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosPauseSimulation.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectPose.srv"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Pose.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetModelProperty.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsolePrint.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEnablePublisher.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectParent.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosLoadUI.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetCollisionHandle.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetBooleanParameter.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectIntParameter.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetModelProperty.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetUIButtonLabel.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetSphericalJointMatrix.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetSphericalJointMatrix.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsoleOpen.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectSelection.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectSelection.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosRemoveUI.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectQuaternion.srv"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetAndClearStringSignal.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetCollectionHandle.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectGroupData.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectFloatParameter.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetInfo.srv"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadVisionSensor.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsoleOpen.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetArrayParameter.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosClearIntegerSignal.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointTargetPosition.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectSelection.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetIntegerParameter.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosDisableSubscriber.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetIntegerSignal.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointTargetPosition.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetArrayParameter.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetStringParameter.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosBreakForceSensor.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEraseFile.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetFloatSignal.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjects.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetIntegerParameter.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectIntParameter.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEnableSubscriber.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEnableSubscriber.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadForceSensor.srv"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Vector3.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetStringSignal.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetFloatingParameter.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCopyPasteObjects.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetAndClearStringSignal.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUIHandle.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEnablePublisher.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUIButtonProperty.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadVisionSensor.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectPosition.srv"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
-)
-_generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosClearIntegerSignal.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetModelProperty.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAddStatusbarMessage.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetArrayParameter.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetDialogResult.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectHandle.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetFloatingParameter.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadProximitySensor.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectPose.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetArrayParameter.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosStopSimulation.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosDisablePublisher.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetVisionSensorDepthBuffer.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUISlider.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsoleClose.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetDistanceHandle.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetUIButtonProperty.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointTargetVelocity.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosClearFloatSignal.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosLoadModel.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadCollision.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAppendStringSignal.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosBreakForceSensor.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosStartSimulation.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetStringSignal.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectParent.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetFloatSignal.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetFloatSignal.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectPose.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAppendStringSignal.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetStringSignal.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointTargetVelocity.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetIntegerSignal.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointForce.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCreateDummy.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosTransferFile.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetBooleanParameter.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosClearFloatSignal.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosTransferFile.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetUISlider.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadForceSensor.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectIntParameter.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosClearStringSignal.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosLoadScene.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosRemoveModel.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectParent.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectIntParameter.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectPosition.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsolePrint.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetJointState.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetBooleanParameter.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosPauseSimulation.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUIEventButton.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosRemoveObject.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetInfo.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectFloatParameter.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetUIButtonLabel.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetUISlider.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetJointMatrix.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Transform.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/TransformStamped.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetFloatingParameter.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetVisionSensorImage.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/indigo/share/sensor_msgs/cmake/../msg/Image.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectGroupData.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetIntegerParameter.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSynchronousTrigger.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointState.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetVisionSensorImage.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/indigo/share/sensor_msgs/cmake/../msg/Image.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUIHandle.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCopyPasteObjects.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEndDialog.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointPosition.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetDialogResult.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetIntegerSignal.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetCollisionHandle.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetDialogInput.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosRemoveModel.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetJointState.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/indigo/share/sensor_msgs/cmake/../msg/JointState.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectHandle.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosDisplayDialog.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetCollectionHandle.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUIButtonProperty.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadDistance.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSynchronous.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSynchronous.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosLoadUI.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectParent.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointForce.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsoleShow.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectPose.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Pose.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosClearStringSignal.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEraseFile.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectChild.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetDialogInput.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadDistance.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosRemoveUI.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCallScriptFunction.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsoleClose.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCloseScene.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
 )
 _generate_srv_py(vrep_common
-  "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosStartSimulation.srv"
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetLastErrors.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAddStatusbarMessage.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectQuaternion.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsoleShow.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetModelProperty.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
+)
+_generate_srv_py(vrep_common
+  "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetIntegerParameter.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/vrep_common
@@ -2921,215 +2921,215 @@ add_custom_target(vrep_common_generate_messages_py
 add_dependencies(vrep_common_generate_messages vrep_common_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetBooleanParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetSphericalJointMatrix.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUISlider.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/JointSetStateData.msg" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetFloatingParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectSelection.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetLastErrors.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosRemoveUI.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointPosition.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetCollectionHandle.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCreateDummy.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectFloatParameter.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSynchronousTrigger.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsoleOpen.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCloseScene.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosClearIntegerSignal.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointState.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectSelection.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetVisionSensorDepthBuffer.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosDisableSubscriber.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUIEventButton.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointTargetPosition.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosDisplayDialog.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetStringParameter.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetStringSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEraseFile.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosDisableSubscriber.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ObjectGroupData.msg" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectSelection.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjects.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/msg/VisionSensorDepthBuff.msg" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectIntParameter.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosStopSimulation.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEnableSubscriber.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetUIButtonProperty.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectParent.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosLoadScene.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetFloatingParameter.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/msg/VisionSensorData.msg" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetAndClearStringSignal.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/msg/ObjectGroupData.msg" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEnablePublisher.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectFloatParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadVisionSensor.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectFloatParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetModelProperty.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosDisablePublisher.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetArrayParameter.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetIntegerSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectHandle.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetJointMatrix.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadProximitySensor.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadCollision.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetArrayParameter.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCallScriptFunction.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosStopSimulation.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadProximitySensor.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosDisablePublisher.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEndDialog.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetVisionSensorDepthBuffer.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetStringParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ScriptFunctionCallData.msg" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetVisionSensorImage.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUISlider.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetFloatSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsoleClose.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosLoadModel.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetDistanceHandle.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetDistanceHandle.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetUIButtonProperty.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectChild.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointTargetVelocity.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjects.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ForceSensorData.msg" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosRemoveObject.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosLoadModel.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetVisionSensorImage.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadCollision.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosPauseSimulation.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAppendStringSignal.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectPose.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosBreakForceSensor.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetCollectionHandle.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosStartSimulation.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetModelProperty.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetStringSignal.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsolePrint.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUIEventButton.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEnablePublisher.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetFloatSignal.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectParent.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetFloatSignal.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetIntegerParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectPose.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetCollisionHandle.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetStringSignal.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetBooleanParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetIntegerSignal.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectIntParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCloseScene.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/msg/ForceSensorData.msg" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCreateDummy.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetModelProperty.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetBooleanParameter.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadForceSensor.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosTransferFile.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetSphericalJointMatrix.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadForceSensor.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsoleOpen.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectIntParameter.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUIHandle.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/ProximitySensorData.msg" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectQuaternion.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosLoadScene.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetAndClearStringSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/VrepInfo.msg" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/msg/JointSetStateData.msg" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectPosition.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectGroupData.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/VisionSensorData.msg" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetInfo.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsolePrint.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadVisionSensor.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosPauseSimulation.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosClearIntegerSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectParent.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointTargetPosition.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosRemoveObject.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetIntegerParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetInfo.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetIntegerSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectFloatParameter.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetArrayParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetIntegerParameter.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosBreakForceSensor.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetBooleanParameter.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetFloatSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetJointMatrix.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosLoadUI.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetFloatingParameter.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsoleShow.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetVisionSensorImage.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEnableSubscriber.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectGroupData.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetUIButtonLabel.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetUIButtonLabel.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosCopyPasteObjects.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSynchronousTrigger.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectSelection.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointState.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetUIButtonProperty.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetVisionSensorImage.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosEraseFile.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUIHandle.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetArrayParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCopyPasteObjects.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAddStatusbarMessage.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosEndDialog.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetDialogResult.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointPosition.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetFloatingParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAddStatusbarMessage.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectPose.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetIntegerSignal.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAppendStringSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetCollisionHandle.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointTargetVelocity.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetDialogInput.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/msg/ScriptFunctionCallData.msg" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosRemoveModel.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetJointForce.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/msg/VisionSensorDepthBuff.msg" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosTransferFile.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetJointState.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosClearFloatSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosDisplayDialog.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetUISlider.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetUIButtonProperty.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosClearStringSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSynchronous.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosRemoveModel.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosLoadUI.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosAuxiliaryConsoleClose.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetJointForce.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetJointState.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectPose.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectHandle.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosClearStringSignal.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/msg/ProximitySensorData.msg" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetObjectChild.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosReadDistance.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosReadDistance.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSynchronous.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosCallScriptFunction.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosStartSimulation.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetUISlider.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetStringSignal.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetLastErrors.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosSetObjectPosition.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetDialogResult.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetDialogInput.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetObjectQuaternion.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosRemoveUI.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosAuxiliaryConsoleShow.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectIntParameter.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosGetModelProperty.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/msg/VrepInfo.msg" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosSetIntegerParameter.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alex/RosProgramming/kuka/src/vrep_common/srv/simRosGetObjectParent.srv" NAME_WE)
+get_filename_component(_filename "/home/teacher/PycharmProjects/kukaRos/src/vrep_common/srv/simRosClearFloatSignal.srv" NAME_WE)
 add_dependencies(vrep_common_generate_messages_py _vrep_common_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

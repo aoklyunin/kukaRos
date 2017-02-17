@@ -1,8 +1,8 @@
-# Install script for directory: /home/alex/RosProgramming/kuka/src/youbot_navigation
+# Install script for directory: /home/teacher/PycharmProjects/kukaRos/src/youbot_navigation
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/alex/RosProgramming/kuka/install")
+  SET(CMAKE_INSTALL_PREFIX "/home/teacher/PycharmProjects/kukaRos/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,6 +33,6 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/youbot_navigation" TYPE FILE FILES "/home/alex/RosProgramming/kuka/src/youbot_navigation/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/youbot_navigation" TYPE FILE FILES "/home/teacher/PycharmProjects/kukaRos/src/youbot_navigation/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

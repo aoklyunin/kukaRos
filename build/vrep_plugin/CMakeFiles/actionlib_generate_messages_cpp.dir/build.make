@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alex/RosProgramming/kuka/src
+CMAKE_SOURCE_DIR = /home/teacher/PycharmProjects/kukaRos/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alex/RosProgramming/kuka/build
+CMAKE_BINARY_DIR = /home/teacher/PycharmProjects/kukaRos/build
 
 # Utility rule file for actionlib_generate_messages_cpp.
 
@@ -56,10 +56,10 @@ vrep_plugin/CMakeFiles/actionlib_generate_messages_cpp.dir/build: actionlib_gene
 .PHONY : vrep_plugin/CMakeFiles/actionlib_generate_messages_cpp.dir/build
 
 vrep_plugin/CMakeFiles/actionlib_generate_messages_cpp.dir/clean:
-	cd /home/alex/RosProgramming/kuka/build/vrep_plugin && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/teacher/PycharmProjects/kukaRos/build/vrep_plugin && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : vrep_plugin/CMakeFiles/actionlib_generate_messages_cpp.dir/clean
 
 vrep_plugin/CMakeFiles/actionlib_generate_messages_cpp.dir/depend:
-	cd /home/alex/RosProgramming/kuka/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alex/RosProgramming/kuka/src /home/alex/RosProgramming/kuka/src/vrep_plugin /home/alex/RosProgramming/kuka/build /home/alex/RosProgramming/kuka/build/vrep_plugin /home/alex/RosProgramming/kuka/build/vrep_plugin/CMakeFiles/actionlib_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/teacher/PycharmProjects/kukaRos/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/teacher/PycharmProjects/kukaRos/src /home/teacher/PycharmProjects/kukaRos/src/vrep_plugin /home/teacher/PycharmProjects/kukaRos/build /home/teacher/PycharmProjects/kukaRos/build/vrep_plugin /home/teacher/PycharmProjects/kukaRos/build/vrep_plugin/CMakeFiles/actionlib_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : vrep_plugin/CMakeFiles/actionlib_generate_messages_cpp.dir/depend
 

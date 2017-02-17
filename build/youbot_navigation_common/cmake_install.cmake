@@ -1,8 +1,8 @@
-# Install script for directory: /home/alex/RosProgramming/kuka/src/youbot_navigation_common
+# Install script for directory: /home/teacher/PycharmProjects/kukaRos/src/youbot_navigation_common
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/alex/RosProgramming/kuka/install")
+  SET(CMAKE_INSTALL_PREFIX "/home/teacher/PycharmProjects/kukaRos/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/alex/RosProgramming/kuka/build/youbot_navigation_common/catkin_generated/installspace/youbot_navigation_common.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/teacher/PycharmProjects/kukaRos/build/youbot_navigation_common/catkin_generated/installspace/youbot_navigation_common.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/youbot_navigation_common/cmake" TYPE FILE FILES
-    "/home/alex/RosProgramming/kuka/build/youbot_navigation_common/catkin_generated/installspace/youbot_navigation_commonConfig.cmake"
-    "/home/alex/RosProgramming/kuka/build/youbot_navigation_common/catkin_generated/installspace/youbot_navigation_commonConfig-version.cmake"
+    "/home/teacher/PycharmProjects/kukaRos/build/youbot_navigation_common/catkin_generated/installspace/youbot_navigation_commonConfig.cmake"
+    "/home/teacher/PycharmProjects/kukaRos/build/youbot_navigation_common/catkin_generated/installspace/youbot_navigation_commonConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/youbot_navigation_common" TYPE FILE FILES "/home/alex/RosProgramming/kuka/src/youbot_navigation_common/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/youbot_navigation_common" TYPE FILE FILES "/home/teacher/PycharmProjects/kukaRos/src/youbot_navigation_common/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
