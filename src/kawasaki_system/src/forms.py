@@ -16,9 +16,9 @@ class Frame(wx.Frame):
     def setDataToGrid(self, data):
         i = 0
         for key in data["position"]:
-            self.myGrid.SetCellValue(i, 0, ("%.2f" %(data["position"][key])))
+            self.myGrid.SetCellValue(i, 2, ("%.2f" %(data["position"][key])))
             self.myGrid.SetCellValue(i, 1, ("%.2f" % (data["velocity"][key])))
-            self.myGrid.SetCellValue(i, 2, ("%.2f" % (data["torque"][key])))
+            self.myGrid.SetCellValue(i, 0, ("%.2f" % (data["torque"][key])))
             i+=1
         pass
 

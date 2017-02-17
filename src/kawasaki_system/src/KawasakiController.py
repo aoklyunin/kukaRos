@@ -68,10 +68,10 @@ class KawasakiController():
     }
 
     def openGripper(self):
-        self.setGripperPositions(100, -100)
+        self.setGripperPositions(100.0, -100.0)
 
     def closeGripper(self):
-        self.setGripperPositions(0, 0)
+        self.setGripperPositions(0.0, 0.0)
 
     # обработчик пришедших значений
     def jointStateCallback(self, data):
