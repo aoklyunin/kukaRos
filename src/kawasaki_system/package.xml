@@ -2,7 +2,10 @@
 <package>
   <name>kawasaki_system</name>
   <version>0.0.0</version>
-  <description>The Kawasaki System package</description>
+  <description>
+    The Kawasaki System package
+    Управление Виртуальным роботом Kawasaki
+  </description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag --> 
   <!-- Example:  -->

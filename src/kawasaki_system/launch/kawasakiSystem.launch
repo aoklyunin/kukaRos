@@ -1,7 +1,7 @@
  <launch>
     <!-- Launch file for kuka-->
 
-    <node name="fucking_kawasaki_node" pkg="kawasaki_system" type="mainApp.py" respawn="false" output="screen" >
+     <node name="fucking_kawasaki_node" pkg="kawasaki_system" type="mainApp.py" respawn="false" output="screen" >
      <!-- <param name="turtle" type="string" value="turtle1" /> -->
     </node>
   </launch>

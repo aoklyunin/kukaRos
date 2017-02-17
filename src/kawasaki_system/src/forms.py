@@ -14,11 +14,14 @@ class Frame(wx.Frame):
         self.Close()
     # записать полученную от куки дату в таблицу
     def setDataToGrid(self, data):
-        for i in range(len(data.position)):
-            self.myGrid.SetCellValue(i, 2, ("%.2f" % data.position[i]))
-            self.myGrid.SetCellValue(i, 1, ("%.2f" % data.velocity[i]))
-            self.myGrid.SetCellValue(i, 0, ("%.2f" % data.effort[i]))
+        i = 0
+        for key in data["position"]:
+            self.myGrid.SetCellValue(i, 0, ("%.2f" %(data["position"][key])))
+            self.myGrid.SetCellValue(i, 1, ("%.2f" % (data["velocity"][key])))
+            self.myGrid.SetCellValue(i, 2, ("%.2f" % (data["torque"][key])))
+            i+=1
         pass
+
     # получить углы из полей ввобда джоинтов
     def getJoinfFromText(self):
         return [
@@ -27,46 +30,58 @@ class Frame(wx.Frame):
             float(self.j3PosTex.GetValue()),
             float(self.j4PosTex.GetValue()),
             float(self.j5PosTex.GetValue()),
+            float(self.j6PosTex.GetValue()),
         ]
     # управление джоинтами по положению
     def OnSendJPos(self, event):
-        self.kuka.setJointPositions(self.getJoinfFromText())
+        self.kawasaki.setJointPositions(self.getJoinfFromText())
         pass
     # управление джоинтами по скоростям
     def OnSendJVel(self, event):
-        self.kuka.setJointVelocities(self.getJoinfFromText())
+        self.kawasaki.setJointVelocities(self.getJoinfFromText())
         pass
     # управление джоинтами по моментам
     def OnSendJTor(self, event):
-        self.kuka.setJointTorques(self.getJoinfFromText())
+        self.kawasaki.setJointTorques(self.getJoinfFromText())
         pass
     # управление гриппером по положению
     def OnSendGPos(self, event):
-         self.kuka.setGripperPositions(float(self.glPosTex.GetValue()), float(self.grPosTex.GetValue()))
+         self.kawasaki.setGripperPositions(float(self.glPosTex.GetValue()), float(self.grPosTex.GetValue()))
          pass
     # управление гриппером по положению
     def OnSendGVel(self, event):
-         self.kuka.setGripperVelocities(float(self.glPosTex.GetValue()), float(self.grPosTex.GetValue()))
+         self.kawasaki.setGripperVelocities(float(self.glPosTex.GetValue()), float(self.grPosTex.GetValue()))
          pass
     # управление гриппером по скоростям
     def OnSendGTor(self, event):
-        self.kuka.setGripperTorques(float(self.glPosTex.GetValue()), float(self.grPosTex.GetValue()))
+        self.kawasaki.setGripperTorques(float(self.glPosTex.GetValue()), float(self.grPosTex.GetValue()))
         pass
     # управление джоинтами по моментам
     def OnSendCVel(self, event):
-        self.kuka.setCarrigeVel(float(self.cxPosTex.GetValue()), float(self.cyPosTex.GetValue()),
+        self.kawasaki.setCarrigeVel(float(self.cxPosTex.GetValue()), float(self.cyPosTex.GetValue()),
                                 float(self.czPosTex.GetValue()))
         pass
+
+    # открыть гриппер
+    def OnOpenGripper(self, event):
+        self.kawasaki.openGripper()
+        pass
+
+    # закрыть гриппер
+    def OnCloseGripper(self, event):
+        self.kawasaki.closeGripper()
+        pass
+
     # события по таймеру
     def OnTimer(self, event):
-        self.setDataToGrid(self.kuka.jointState)
+        self.setDataToGrid(self.kawasaki.jointState)
         pass
     # конструктор
     def __init__(self, parent=None, id=-1, title='', pos=(0, 0), size=(490, 700)):
         # создаём фрейм
         wx.Frame.__init__(self, parent, id, title, pos, size)
         # создаём объект для взаимодействия с роботом
-        self.kuka = KawasakiController()
+        self.kawasaki = KawasakiController()
         # добавляем на фрейм панель
         self.panel = wx.Panel(self)
         # инициализируем панель
@@ -94,12 +109,16 @@ class Frame(wx.Frame):
         self.j3PosTex = wx.TextCtrl(self.panel, -1, '0', pos=(130, 460), size=(40, 30))
         self.j4PosTex = wx.TextCtrl(self.panel, -1, '0', pos=(180, 460), size=(40, 30))
         self.j5PosTex = wx.TextCtrl(self.panel, -1, '0', pos=(230, 460), size=(40, 30))
+        self.j6PosTex = wx.TextCtrl(self.panel, -1, '0', pos=(280, 460), size=(40, 30))
+
         # задаём фон заливки
         self.j1PosTex.SetBackgroundColour('#DDFFEE')
         self.j2PosTex.SetBackgroundColour('#DDFFEE')
         self.j3PosTex.SetBackgroundColour('#DDFFEE')
         self.j4PosTex.SetBackgroundColour('#DDFFEE')
         self.j5PosTex.SetBackgroundColour('#DDFFEE')
+        self.j6PosTex.SetBackgroundColour('#DDFFEE')
+
         # конпки управления джоинтами и привязка методов к ним
         self.sendJposBtn = wx.Button(self.panel, label="Положения", pos=(30, 490), size=(100, 30))
         self.Bind(wx.EVT_BUTTON, self.OnSendJPos, self.sendJposBtn)
@@ -120,21 +139,16 @@ class Frame(wx.Frame):
         self.Bind(wx.EVT_BUTTON, self.OnSendGPos, self.sendGposBtn)
         self.sendGvelBtn = wx.Button(self.panel, label="Скорости", pos=(140, 570), size=(100, 30))
         self.Bind(wx.EVT_BUTTON, self.OnSendGVel, self.sendGvelBtn)
+
         self.sendGtorBtn = wx.Button(self.panel, label="Моменты", pos=(250, 570), size=(100, 30))
         self.Bind(wx.EVT_BUTTON, self.OnSendGTor, self.sendGtorBtn)
-        # управление тележкой
-        wx.StaticText(self.panel, -1, "Тележка: x,y,z", (30, 600))
-        # создаём поля ввода для координат тележки
-        self.cxPosTex = wx.TextCtrl(self.panel, -1, '0', pos=(30, 620), size=(40, 30))
-        self.cyPosTex = wx.TextCtrl(self.panel, -1, '0', pos=(80, 620), size=(40, 30))
-        self.czPosTex = wx.TextCtrl(self.panel, -1, '0', pos=(130, 620), size=(40, 30))
-        # задаём фон заливки
-        self.cxPosTex.SetBackgroundColour('#DDFFEE')
-        self.cyPosTex.SetBackgroundColour('#DDFFEE')
-        self.czPosTex.SetBackgroundColour('#DDFFEE')
-        # кнопка управления тележкой и привязка метода к ней
-        self.sendCvelBtn = wx.Button(self.panel, label="Положения", pos=(30, 650), size=(100, 30))
-        self.Bind(wx.EVT_BUTTON, self.OnSendCVel, self.sendCvelBtn)
+
+        self.sendOpenGripper = wx.Button(self.panel, label="Открыть гриппер", pos=(30, 620), size=(120, 30))
+        self.Bind(wx.EVT_BUTTON, self.OnOpenGripper, self.sendOpenGripper)
+
+        self.sendOpenGripper = wx.Button(self.panel, label="Закрыть гриппер", pos=(150, 620), size=(120, 30))
+        self.Bind(wx.EVT_BUTTON, self.OnCloseGripper, self.sendOpenGripper)
+
 
     # инициализация таблицы
     def initGrid(self):
@@ -142,7 +156,7 @@ class Frame(wx.Frame):
         self.myGrid = gridlib.Grid(self.panel)
         # кол-во строк и столбцов
         # нумерация в таблице начинается с ячейки (0,0)
-        self.myGrid.CreateGrid(16, 3)
+        self.myGrid.CreateGrid(8, 3)
         # задаём имена столбцов
         self.myGrid.SetColLabelValue(0, "Момент")
         self.myGrid.SetColLabelValue(1, "Скорость")
@@ -150,21 +164,10 @@ class Frame(wx.Frame):
         # задаём ширину второго столбца больше, т.к. положение не "влезает"
         self.myGrid.SetColSize(2, 100)
         # задаём имена строк
-        self.myGrid.SetRowLabelValue(0, "Hokuyo_URG_04LX_UG01_joint")
-        self.myGrid.SetRowLabelValue(1, "wheel_joint_br")
-        self.myGrid.SetRowLabelValue(2, "caster_joint_br")
-        self.myGrid.SetRowLabelValue(3, "wheel_joint_bl")
-        self.myGrid.SetRowLabelValue(4, "caster_joint_bl")
-        self.myGrid.SetRowLabelValue(5, "suspension_joint")
-        self.myGrid.SetRowLabelValue(6, "wheel_joint_fl")
-        self.myGrid.SetRowLabelValue(7, "wheel_joint_fr")
-        self.myGrid.SetRowLabelValue(8, "caster_joint_fr")
-        self.myGrid.SetRowLabelValue(9, "arm_joint_1")
-        self.myGrid.SetRowLabelValue(10, "arm_joint_2")
-        self.myGrid.SetRowLabelValue(11, "arm_joint_3")
-        self.myGrid.SetRowLabelValue(12, "arm_joint_4")
-        self.myGrid.SetRowLabelValue(13, "arm_joint_5")
-        self.myGrid.SetRowLabelValue(14, "gripper_finger_joint_r")
-        self.myGrid.SetRowLabelValue(15, "gripper_finger_joint_l")
+        i = 0
+        for key in self.kawasaki.jointState["position"]:
+            self.myGrid.SetRowLabelValue(i, key)
+            i += 1
+
         # задаём ширину столбца с именами строк
-        self.myGrid.SetRowLabelSize(230)
+        self.myGrid.SetRowLabelSize(210)
